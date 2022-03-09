@@ -15,8 +15,13 @@ public class Player : NetworkBehaviour
     }
 
     public GameObject TankPrefab;
-       public GameObject myTank;
+      public GameObject myTank;
 
+
+    [SyncVar]
+    public int score = 0;
+
+    [SyncVar]
     public int playerNum;
 
 
@@ -25,6 +30,12 @@ public class Player : NetworkBehaviour
     {
         playerNum = num;
     }
+
+    public void addScore()
+    {
+        score += 1;
+    }
+
 
 
     public void DestroyTank()
@@ -49,14 +60,24 @@ public class Player : NetworkBehaviour
 
 
         myTank = Instantiate(TankPrefab);
-
-         NetworkServer.Spawn(myTank, connectionToClient);
+       
+        
+     
+           // myTank.GetComponent<Tank>().ChangePosition(new Vector3(-8, -3, 0));
+        
+        NetworkServer.Spawn(myTank, connectionToClient);
+        if (isServer)
+        {
+         //   myTank.GetComponent<Tank>().transform.position = (new Vector3(8, -3, 0));
+        }
+     
     }
 
     // Update is called once per frame
 
     void Update()
     {
+        
         if (Input.GetKey(KeyCode.Escape))
         {
 
@@ -74,5 +95,6 @@ public class Player : NetworkBehaviour
           
         }
     }
+   
 
-}
+    }

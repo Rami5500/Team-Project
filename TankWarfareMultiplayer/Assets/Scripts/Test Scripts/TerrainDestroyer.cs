@@ -37,7 +37,7 @@ public class TerrainDestroyer : NetworkBehaviour
         }
         */
         
-            for (int x = -(int)radius; x < radius; x++)
+        for (int x = -(int)radius; x < radius; x++)
         {
             for (int y = -(int)radius; y < radius; y++)
             {
@@ -63,5 +63,12 @@ public class TerrainDestroyer : NetworkBehaviour
     {
         terrain.SetTile(tilePos, null);
     }
+
+    public void RestartMap()
+    {
+        terrain.RefreshAllTiles();
+    }
+
+
 
 }
