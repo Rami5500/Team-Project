@@ -18,6 +18,11 @@ public class Player : NetworkBehaviour
       public GameObject myTank;
 
 
+    [Tooltip("Diagnostic flag indicating whether this player is ready for the game to begin")]
+    [SyncVar]
+    public bool readyToBegin;
+
+
     [SyncVar]
     public int score = 0;
 

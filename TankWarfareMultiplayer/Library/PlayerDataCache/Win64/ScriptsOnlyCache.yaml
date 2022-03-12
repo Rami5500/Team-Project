@@ -9,7 +9,10 @@ ScriptsOnlyBuild:
     - HealthUI
     - Menu
     - NobleConnect.Examples.Mirror.ExampleMirrorNetworkHUD
+    - NobleConnect.Examples.Mirror.ExampleMirrorNobleNetworkLobbyManager
     - NobleConnect.Mirror.NobleNetworkManager
+    - NobleConnect.Mirror.NobleRoomManager
+    - NobleConnect.Mirror.NobleRoomPlayer
     - NobleConnect.NobleConnectSettings
     - PhaseUI
     - Player
@@ -21,8 +24,6 @@ ScriptsOnlyBuild:
     - Mirror.NetworkTransform
     Mirror.dll:
     - Mirror.NetworkIdentity
-    - Mirror.NetworkManager
-    - Mirror.NetworkManagerHUD
     - kcp2k.KcpTransport
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -31,7 +32,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -107,15 +107,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4374}
     - Class: 114
-      Script: {instanceID: 5120}
+      Script: {instanceID: 5122}
     - Class: 114
-      Script: {instanceID: 5614}
+      Script: {instanceID: 5616}
     - Class: 114
-      Script: {instanceID: 5832}
+      Script: {instanceID: 5834}
     - Class: 114
-      Script: {instanceID: 6456}
+      Script: {instanceID: 6458}
     - Class: 114
-      Script: {instanceID: 6562}
+      Script: {instanceID: 6564}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -141,6 +141,51 @@ ScriptsOnlyBuild:
     - Class: 483693784
       Script: {instanceID: 0}
     - Class: 1839735485
+      Script: {instanceID: 0}
+    Assets/Scenes/Scene_Lobby.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1474}
+    - Class: 114
+      Script: {instanceID: 1476}
+    - Class: 114
+      Script: {instanceID: 1478}
+    - Class: 114
+      Script: {instanceID: 2888}
+    - Class: 114
+      Script: {instanceID: 3790}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/Scene_MainMenu.unity:
     - Class: 1
@@ -188,6 +233,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2888}
     - Class: 114
+      Script: {instanceID: 2936}
+    - Class: 114
       Script: {instanceID: 3080}
     - Class: 114
       Script: {instanceID: 3126}
@@ -202,25 +249,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3790}
     - Class: 114
-      Script: {instanceID: 3936}
-    - Class: 114
       Script: {instanceID: 4170}
     - Class: 114
-      Script: {instanceID: 4962}
+      Script: {instanceID: 4964}
     - Class: 114
-      Script: {instanceID: 5016}
+      Script: {instanceID: 5018}
     - Class: 114
-      Script: {instanceID: 5120}
+      Script: {instanceID: 5122}
     - Class: 114
-      Script: {instanceID: 5578}
+      Script: {instanceID: 5186}
     - Class: 114
-      Script: {instanceID: 5832}
+      Script: {instanceID: 5214}
     - Class: 114
-      Script: {instanceID: 5924}
+      Script: {instanceID: 5580}
     - Class: 114
-      Script: {instanceID: 6012}
+      Script: {instanceID: 5834}
     - Class: 114
-      Script: {instanceID: 6190}
+      Script: {instanceID: 5926}
+    - Class: 114
+      Script: {instanceID: 6192}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1046,6 +1093,12 @@ ScriptsOnlyBuild:
     className: SpriteShape
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NetworkRoomPlayerMenu
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1364,7 +1417,7 @@ ScriptsOnlyBuild:
     className: NetworkAnimator
   - hash:
       serializedVersion: 2
-      Hash: 802068af5b1845f32ef09d40356796ab
+      Hash: 28fde5ace2004db5336b1743d57fa088
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -1463,9 +1516,10 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: NetworkRoomPlayerMenu
+    className: Lobby
   platform: 19
   scenePathNames:
   - Assets/Scenes/Scene_MainMenu.unity
+  - Assets/Scenes/Scene_Lobby.unity
   - Assets/Scenes/Game.unity
   playerPath: C:/Users/ryan/TankWarfareMultiplayer/Builds/TankWarfareMultiplayer.exe

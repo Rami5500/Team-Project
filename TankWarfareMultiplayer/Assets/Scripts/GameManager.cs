@@ -107,6 +107,16 @@ public class GameManager : NetworkBehaviour
                 return;
             }
             matchHasFinished = true;
+            if (Round == 3)
+            {
+
+                Debug.Log("GAME OVER");
+                if (Input.GetKey(KeyCode.Return))
+                 {
+                    NetworkManager.singleton.StopHost();
+                    NetworkManager.singleton.StopClient();
+                }
+            }
             if (Input.GetKey(KeyCode.Return))
             {
                 /*  Debug.Log("New Game");
