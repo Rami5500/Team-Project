@@ -212,8 +212,12 @@ public class Tank : NetworkBehaviour
             Vector3 theScale = transform.localScale;
             theScale.x *= -1;
             transform.localScale = theScale;
+            float turretMovement = Input.GetAxis("TurretHorizontal") * TurretSpeed * Time.deltaTime;
+            turretAngle = Mathf.Clamp(turretAngle + turretMovement, 0, 180);
+            CmdChangeTurretAngle(turretAngle);
+
             ChangePosition(theScale);
-            //CmdUpdatePosition(transform.position);
+            CmdUpdatePosition(transform.position);
 
         }
     }
