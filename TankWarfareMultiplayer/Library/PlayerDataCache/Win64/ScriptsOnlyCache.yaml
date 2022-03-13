@@ -109,19 +109,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3560}
     - Class: 114
-      Script: {instanceID: 4172}
+      Script: {instanceID: 4174}
     - Class: 114
-      Script: {instanceID: 4376}
+      Script: {instanceID: 4378}
     - Class: 114
-      Script: {instanceID: 5126}
+      Script: {instanceID: 5130}
     - Class: 114
-      Script: {instanceID: 5620}
+      Script: {instanceID: 5624}
     - Class: 114
-      Script: {instanceID: 5838}
+      Script: {instanceID: 5842}
     - Class: 114
-      Script: {instanceID: 6462}
+      Script: {instanceID: 6466}
     - Class: 114
-      Script: {instanceID: 6568}
+      Script: {instanceID: 6572}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -178,7 +178,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3792}
     - Class: 114
-      Script: {instanceID: 5838}
+      Script: {instanceID: 5842}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -259,27 +259,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3792}
     - Class: 114
-      Script: {instanceID: 4172}
+      Script: {instanceID: 4174}
     - Class: 114
-      Script: {instanceID: 4966}
+      Script: {instanceID: 4970}
     - Class: 114
-      Script: {instanceID: 4968}
+      Script: {instanceID: 4972}
     - Class: 114
-      Script: {instanceID: 5022}
+      Script: {instanceID: 5026}
     - Class: 114
-      Script: {instanceID: 5126}
+      Script: {instanceID: 5130}
     - Class: 114
-      Script: {instanceID: 5190}
+      Script: {instanceID: 5194}
     - Class: 114
-      Script: {instanceID: 5218}
+      Script: {instanceID: 5222}
     - Class: 114
-      Script: {instanceID: 5584}
+      Script: {instanceID: 5588}
     - Class: 114
-      Script: {instanceID: 5838}
+      Script: {instanceID: 5842}
     - Class: 114
-      Script: {instanceID: 5930}
+      Script: {instanceID: 5934}
     - Class: 114
-      Script: {instanceID: 6196}
+      Script: {instanceID: 6200}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -469,7 +469,7 @@ ScriptsOnlyBuild:
     className: PlayerScore
   - hash:
       serializedVersion: 2
-      Hash: 3a68e96d4604558926b2b3b5d10fe6dd
+      Hash: 300103c26536dc957f74ea7776745a9d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LobbyScript
@@ -931,6 +931,12 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NewBehaviourScript
+  - hash:
+      serializedVersion: 2
       Hash: c99c89868de7ea34de6ecf7c21de2601
     assemblyName: Mirror.dll
     namespaceName: Mirror
@@ -1061,6 +1067,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerController
   - hash:
       serializedVersion: 2
       Hash: 55f8c6238de35a22ccf4e5ffe39aa1ac
@@ -1535,12 +1547,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TerrainDestroyer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerController
   platform: 19
   scenePathNames:
   - Assets/Scenes/Scene_MainMenu.unity

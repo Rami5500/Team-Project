@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using Mirror;
 
 
@@ -13,6 +14,10 @@ public class LobbyScript : NetworkBehaviour
     public GameObject SpeedPrefab;
 
     public GameObject HeavyPrefab;
+
+    public GameObject Map1;
+    public GameObject Map2;
+    public GameObject Map3;
 
 
     public GameObject myPlayer;
@@ -31,7 +36,12 @@ public class LobbyScript : NetworkBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(isServer)
+        {
+            Map1.SetActive(true);
+            Map2.SetActive(true);
+            Map3.SetActive(true);
+        }
     }
 
 

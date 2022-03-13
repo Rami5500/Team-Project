@@ -66,6 +66,8 @@
      <Compile Include="Assets\roundScript.cs" />
      <Compile Include="Assets\Noble Connect\Mirror\Examples\GUILabelFromText.cs" />
      <Compile Include="Assets\Noble Connect\Mirror\Examples\MirrorExamplePlayer.cs" />
+     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+     <Compile Include="Assets\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Lobby\Lobby.cs" />
      <Compile Include="Assets\Scripts\BulletExplosion.cs" />
      <Compile Include="Assets\Scripts\MainMenu\NetworkRoomPlayerMenu.cs" />
@@ -82,8 +84,6 @@
      <Compile Include="Assets\Noble Connect\Common\TextFromFile.cs" />
      <Compile Include="Assets\Scripts\PhaseUI.cs" />
      <Compile Include="Assets\Scripts\Test Scripts\TerrainDestroyer.cs" />
-     <Compile Include="Assets\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
      <None Include="Assets\platformer-pack-redux-360-assets\License.txt" />
      <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
      <None Include="Assets\platformer-pack-redux-360-assets\Spritesheets\spritesheet_complete.xml" />
