@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - GameManager
     - Health
     - HealthUI
+    - LobbyScript
     - Menu
     - NobleConnect.Examples.Mirror.ExampleMirrorNetworkHUD
     - NobleConnect.Examples.Mirror.ExampleMirrorNobleNetworkLobbyManager
@@ -16,6 +17,7 @@ ScriptsOnlyBuild:
     - NobleConnect.NobleConnectSettings
     - PhaseUI
     - Player
+    - PlayerLobby
     - Tank
     - TerrainDestroyer
     - Water
@@ -24,6 +26,7 @@ ScriptsOnlyBuild:
     - Mirror.NetworkTransform
     Mirror.dll:
     - Mirror.NetworkIdentity
+    - Mirror.NetworkStartPosition
     - kcp2k.KcpTransport
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -32,6 +35,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -97,25 +101,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1780}
     - Class: 114
-      Script: {instanceID: 2888}
+      Script: {instanceID: 2890}
     - Class: 114
-      Script: {instanceID: 3288}
+      Script: {instanceID: 3192}
     - Class: 114
-      Script: {instanceID: 3558}
+      Script: {instanceID: 3290}
     - Class: 114
-      Script: {instanceID: 4170}
+      Script: {instanceID: 3560}
     - Class: 114
-      Script: {instanceID: 4374}
+      Script: {instanceID: 4172}
     - Class: 114
-      Script: {instanceID: 5122}
+      Script: {instanceID: 4376}
     - Class: 114
-      Script: {instanceID: 5616}
+      Script: {instanceID: 5126}
     - Class: 114
-      Script: {instanceID: 5834}
+      Script: {instanceID: 5620}
     - Class: 114
-      Script: {instanceID: 6458}
+      Script: {instanceID: 5838}
     - Class: 114
-      Script: {instanceID: 6564}
+      Script: {instanceID: 6462}
+    - Class: 114
+      Script: {instanceID: 6568}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -166,9 +172,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 2888}
+      Script: {instanceID: 1800}
     - Class: 114
-      Script: {instanceID: 3790}
+      Script: {instanceID: 2890}
+    - Class: 114
+      Script: {instanceID: 3792}
+    - Class: 114
+      Script: {instanceID: 5838}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -227,47 +237,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1494}
     - Class: 114
-      Script: {instanceID: 2106}
+      Script: {instanceID: 2108}
     - Class: 114
-      Script: {instanceID: 2518}
+      Script: {instanceID: 2520}
     - Class: 114
-      Script: {instanceID: 2888}
+      Script: {instanceID: 2890}
     - Class: 114
-      Script: {instanceID: 2936}
+      Script: {instanceID: 2938}
     - Class: 114
-      Script: {instanceID: 3080}
+      Script: {instanceID: 3082}
     - Class: 114
-      Script: {instanceID: 3126}
+      Script: {instanceID: 3128}
     - Class: 114
-      Script: {instanceID: 3234}
+      Script: {instanceID: 3236}
     - Class: 114
-      Script: {instanceID: 3310}
+      Script: {instanceID: 3312}
     - Class: 114
-      Script: {instanceID: 3434}
+      Script: {instanceID: 3436}
     - Class: 114
-      Script: {instanceID: 3654}
+      Script: {instanceID: 3656}
     - Class: 114
-      Script: {instanceID: 3790}
+      Script: {instanceID: 3792}
     - Class: 114
-      Script: {instanceID: 4170}
+      Script: {instanceID: 4172}
     - Class: 114
-      Script: {instanceID: 4964}
+      Script: {instanceID: 4966}
     - Class: 114
-      Script: {instanceID: 5018}
+      Script: {instanceID: 4968}
     - Class: 114
-      Script: {instanceID: 5122}
+      Script: {instanceID: 5022}
     - Class: 114
-      Script: {instanceID: 5186}
+      Script: {instanceID: 5126}
     - Class: 114
-      Script: {instanceID: 5214}
+      Script: {instanceID: 5190}
     - Class: 114
-      Script: {instanceID: 5580}
+      Script: {instanceID: 5218}
     - Class: 114
-      Script: {instanceID: 5834}
+      Script: {instanceID: 5584}
     - Class: 114
-      Script: {instanceID: 5926}
+      Script: {instanceID: 5838}
     - Class: 114
-      Script: {instanceID: 6192}
+      Script: {instanceID: 5930}
+    - Class: 114
+      Script: {instanceID: 6196}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -455,6 +467,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.NetworkRoom
     className: PlayerScore
+  - hash:
+      serializedVersion: 2
+      Hash: 3a68e96d4604558926b2b3b5d10fe6dd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LobbyScript
   - hash:
       serializedVersion: 2
       Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
@@ -1081,6 +1099,12 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Lobby
+  - hash:
+      serializedVersion: 2
       Hash: 6f8e6c19206b8f3a2c65c42b8a91cc06
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1111,7 +1135,7 @@ ScriptsOnlyBuild:
     className: Tank
   - hash:
       serializedVersion: 2
-      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
+      Hash: c68321852d46e6c49682cf9bd2c5bb3e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerLobby
@@ -1516,7 +1540,7 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Lobby
+    className: PlayerController
   platform: 19
   scenePathNames:
   - Assets/Scenes/Scene_MainMenu.unity
