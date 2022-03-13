@@ -78,7 +78,7 @@ public class Tank : NetworkBehaviour
 
 
 
-            if ( hasAuthority == false)
+        if ( hasAuthority == false || tankTurn == false)
         {
             transform.position = Vector3.SmoothDamp(transform.position, serverPosition,ref serverPositionSmoothVelocity , 0.25f);
         }
