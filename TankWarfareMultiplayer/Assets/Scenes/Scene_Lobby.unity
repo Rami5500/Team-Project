@@ -698,12 +698,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  BalancePrefab: {fileID: 0}
-  SpeedPrefab: {fileID: 0}
-  HeavyPrefab: {fileID: 0}
+  BalancePrefab: {fileID: 5102811160930846103, guid: 85908f88948c0174590909a990a61e58, type: 3}
+  SpeedPrefab: {fileID: 5202907969249273835, guid: 1d1990c5af02ee24ab807464d74e70cf, type: 3}
+  HeavyPrefab: {fileID: 3405571195189647847, guid: c3499e12fe783ba49af1b0bf86aae96d, type: 3}
   Map1: {fileID: 1114426830958285934}
   Map2: {fileID: 1114426830958285933}
   Map3: {fileID: 1114426830958285932}
+  myTank: {fileID: 0}
   myPlayer: {fileID: 0}
 --- !u!114 &1114426830958285931
 MonoBehaviour:

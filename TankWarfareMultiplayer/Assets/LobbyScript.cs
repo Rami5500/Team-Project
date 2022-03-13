@@ -9,17 +9,17 @@ using Mirror;
 public class LobbyScript : NetworkBehaviour
 {
 
-    public GameObject BalancePrefab;
+    //public GameObject BalancePrefab;
 
-    public GameObject SpeedPrefab;
+    //public GameObject SpeedPrefab;
 
-    public GameObject HeavyPrefab;
+   // public GameObject HeavyPrefab;
 
     public GameObject Map1;
     public GameObject Map2;
     public GameObject Map3;
 
-
+    public GameObject myTank;
     public GameObject myPlayer;
 
     // Start is called before the first frame update
@@ -47,27 +47,35 @@ public class LobbyScript : NetworkBehaviour
 
     public void ChangeBalanceTank()
     {
-        ChangeTank(BalancePrefab,1);
+        changeTank(1);
     }
 
     public void ChangeSpeedTank()
     {
-        ChangeTank(SpeedPrefab,2);
+        changeTank(2);
     }
 
     public void ChangeHeavyTank()
     {
-        ChangeTank(HeavyPrefab,3);
+        changeTank(3);
     }
 
-    void ChangeTank(GameObject TankPrefab, int i)
+    //[Command(requiresAuthority = false)]
+   //[Server]
+  //  [Command(requiresAuthority = false)]
+    //[Server]
+    //[Command]
+    void changeTank(int i)
     {
        PlayerLobby[] Players = GameObject.FindObjectsOfType<PlayerLobby>();
-      foreach (PlayerLobby player in Players)
+        //myTank = Instantiate(TankPrefab);
+        //myTank = TankPrefab;
+      // Debug.Log(myTank);
+        foreach (PlayerLobby player in Players)
         {
             if (player.hasAuthority)
             {
-                player.ChangeTank(TankPrefab, i);
+                player.ChangeTank(i);
             }
 
         }

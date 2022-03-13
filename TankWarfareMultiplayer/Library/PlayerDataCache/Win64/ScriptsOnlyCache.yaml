@@ -32,6 +32,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
@@ -467,7 +468,7 @@ ScriptsOnlyBuild:
     className: PlayerScore
   - hash:
       serializedVersion: 2
-      Hash: 300103c26536dc957f74ea7776745a9d
+      Hash: d44271daa757520a7574f127e4fcbde9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LobbyScript
@@ -1145,7 +1146,7 @@ ScriptsOnlyBuild:
     className: Tank
   - hash:
       serializedVersion: 2
-      Hash: c68321852d46e6c49682cf9bd2c5bb3e
+      Hash: a60cd9f9c60e5312b8877db5ef9ba49a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerLobby
@@ -1451,7 +1452,7 @@ ScriptsOnlyBuild:
     className: NetworkAnimator
   - hash:
       serializedVersion: 2
-      Hash: 28fde5ace2004db5336b1743d57fa088
+      Hash: 14ade5535e0b7670b84e80374484e2d5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player

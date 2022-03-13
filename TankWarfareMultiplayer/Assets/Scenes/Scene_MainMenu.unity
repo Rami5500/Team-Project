@@ -4870,7 +4870,11 @@ MonoBehaviour:
   spawnPrefabs:
   - {fileID: 3886557910525370309, guid: fe1f08a12b5a8b54f814cf640628f5a3, type: 3}
   - {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}
-  - {fileID: 3883254038535263718, guid: 6922c55c01227b74c8d58a5371a3e4f8, type: 3}
+  - {fileID: 7021162156832587346, guid: 6922c55c01227b74c8d58a5371a3e4f8, type: 3}
+  - {fileID: 3405571195189647847, guid: c3499e12fe783ba49af1b0bf86aae96d, type: 3}
+  - {fileID: 5202907969249273835, guid: 1d1990c5af02ee24ab807464d74e70cf, type: 3}
+  - {fileID: 5102811160930846103, guid: 85908f88948c0174590909a990a61e58, type: 3}
+  - {fileID: 8923671297930687059, guid: 47e65c9ed3145be468dc3c64c5c3fe65, type: 3}
   networkPort: 0
   region: 0
   forceRelayConnection: 0
