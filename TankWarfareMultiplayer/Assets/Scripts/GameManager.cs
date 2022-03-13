@@ -11,6 +11,7 @@ public class GameManager : NetworkBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         //StartNewMatch();
         //Note: Start() runs before anyone connects to a server
     }
@@ -104,6 +105,7 @@ public class GameManager : NetworkBehaviour
         {
             if (matchHasStarted == false)
             {
+
                 return;
             }
             matchHasFinished = true;

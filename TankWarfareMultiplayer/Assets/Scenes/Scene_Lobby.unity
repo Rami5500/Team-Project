@@ -213,6 +213,62 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1114426829572462353, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114426829572462353, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114426829572462353, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1114426830958285930}
+    - target: {fileID: 1114426829572462353, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114426829572462353, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeHeavyTank
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114426829572462353, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LobbyScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114426829572462353, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114426829759794131, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114426829759794131, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114426829759794131, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1114426830958285930}
+    - target: {fileID: 1114426829759794131, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114426829759794131, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeBalanceTank
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114426829759794131, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LobbyScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114426829759794131, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1114426829775359300, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -281,5 +337,73 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1114426831568251988, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114426831568251988, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114426831568251988, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1114426830958285930}
+    - target: {fileID: 1114426831568251988, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114426831568251988, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeSpeedTank
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114426831568251988, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LobbyScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114426831568251988, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+--- !u!1 &1114426830958285929 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1114426831336294379, guid: 06bad19e44e490e4ea87b64ecd4cde39, type: 3}
+  m_PrefabInstance: {fileID: 1114426830958285928}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1114426830958285930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114426830958285929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0f82cb57b07504386283891c671b43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  BalancePrefab: {fileID: 0}
+  SpeedPrefab: {fileID: 0}
+  HeavyPrefab: {fileID: 0}
+  myPlayer: {fileID: 0}
+--- !u!114 &1114426830958285931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114426830958285929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 3013939699
+  serverOnly: 0
+  visible: 0
+  m_AssetId: 06bad19e44e490e4ea87b64ecd4cde39
+  hasSpawned: 0

@@ -2249,7 +2249,7 @@ MonoBehaviour:
   networkAddress: localhost
   maxConnections: 100
   authenticator: {fileID: 0}
-  playerPrefab: {fileID: 0}
+  playerPrefab: {fileID: 7305828644445107205, guid: 08595b0ce0318944b953d0e128149564, type: 3}
   autoCreatePlayer: 1
   playerSpawnMethod: 0
   spawnPrefabs:
@@ -2267,7 +2267,7 @@ MonoBehaviour:
   relayLifetime: 30
   isDisconnecting: 0
   showRoomGUI: 1
-  minPlayers: 1
+  minPlayers: 2
   roomPlayerPrefab: {fileID: -8547456980174851145, guid: 4cfbb77827a1f254a9509a0e56776f69, type: 3}
   RoomScene: Assets/Scenes/Scene_Lobby.unity
   GameplayScene: Assets/Scenes/Game.unity
