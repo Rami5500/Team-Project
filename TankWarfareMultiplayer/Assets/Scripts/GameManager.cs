@@ -115,8 +115,9 @@ public class GameManager : NetworkBehaviour
                 Debug.Log("GAME OVER");
                 if (Input.GetKey(KeyCode.Return))
                  {
-                    NetworkManager.singleton.StopHost();
-                    NetworkManager.singleton.StopClient();
+                    SceneManager.LoadScene("Scene_Victory");
+                   // NetworkManager.singleton.StopHost();
+                    //NetworkManager.singleton.StopClient();
                 }
             }
             if (Input.GetKey(KeyCode.Return))
@@ -155,6 +156,7 @@ public class GameManager : NetworkBehaviour
 
         if(ProcessEvent())
         {
+          
             return;
         }
 
@@ -308,9 +310,10 @@ public class GameManager : NetworkBehaviour
         // SceneManager.LoadScene("Game");
         //Destroy(gameObject);
         Round += 1;
+        Player[] players = GetAllPlayer();
          terrain.GetComponent<TerrainDestroyer>().RestartMap();
-         Player[] players = GameObject.FindObjectsOfType<Player>();
-         Tank[] tanks = GetAllTanks();
+        AddScore();
+        Tank[] tanks = GetAllTanks();
          foreach (Tank tank in tanks)
          {
              tank.DestroyTank();
@@ -339,6 +342,18 @@ public class GameManager : NetworkBehaviour
 
     }
 
+
+    public void AddScore()
+    {
+        Player[] players = GetAllPlayer();
+        foreach (Player player in players)
+        {
+            if (player.myTank != null)
+            {
+                player.addScore();
+            }
+        }
+    }
 
 
 

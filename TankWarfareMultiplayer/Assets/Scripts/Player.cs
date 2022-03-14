@@ -33,7 +33,7 @@ public class Player : NetworkBehaviour
     public GameObject HeavyPrefab;
 
     [SyncVar]
-    public int tankNum;
+    public int tankNum = 1;
 
     public GameObject myTank;
 
@@ -47,7 +47,7 @@ public class Player : NetworkBehaviour
 
 
     [SyncVar]
-    public int score = 0;
+    public int score;
 
     [SyncVar]
     public int playerNum;
@@ -64,6 +64,11 @@ public class Player : NetworkBehaviour
         playerNum = num;
     }
 
+  
+
+
+
+    //[Command]
     public void addScore()
     {
         score += 1;

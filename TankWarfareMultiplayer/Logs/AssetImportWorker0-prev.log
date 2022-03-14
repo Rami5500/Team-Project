@@ -15,11 +15,11 @@ C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58962
+59333
 Successfully changed project path to: C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer
 C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 56.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 57.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.21f1 (a38c86f6690f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -37,994 +37,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001134 seconds.
+Registered in 0.001088 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 59.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.057 seconds
+- Completed reload, in  1.103 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1057ms)
-		BeginReloadAssembly (50ms)
+	ReloadAssembly (1103ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (502ms)
-			LoadAssemblies (48ms)
+		EndReloadAssembly (515ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (167ms)
+			SetupTypeCache (177ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (207ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (204ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (98ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006042 seconds.
+Registered in 0.004877 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 53.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 56.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.238 seconds
+- Completed reload, in  1.328 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1238ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (1329ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1041ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1120ms)
 			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (351ms)
+			SetupTypeCache (370ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (407ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (443ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (53ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (237ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2550 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.5 MB.
-System memory in use after: 107.6 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2979.
-Total: 4.226455 ms (FindLiveObjects: 0.393032 ms CreateObjectMapping: 0.309415 ms MarkObjects: 3.431033 ms  DeleteObjects: 0.091466 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/TankImages/Tank_1_barrel.png
-  artifactKey: Guid(42d9bf3d38bfe9341af693dc21be32b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TankImages/Tank_1_barrel.png using Guid(42d9bf3d38bfe9341af693dc21be32b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87a80867724342b2f137f4f0abdd6e4') in 0.805193 seconds 
-  Import took 0.810684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/TankImages/Tank_2_barrel.png
-  artifactKey: Guid(f06b09dab842c874eacd313808ab9573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TankImages/Tank_2_barrel.png using Guid(f06b09dab842c874eacd313808ab9573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7c3e37e3df0f875da3d377c78184a3') in 0.033755 seconds 
-  Import took 0.038891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/TankImages/Pixilart_Sprite_Sheet_tank_1.png
-  artifactKey: Guid(28cbb5a0013159c4ebef0e0a93c716da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TankImages/Pixilart_Sprite_Sheet_tank_1.png using Guid(28cbb5a0013159c4ebef0e0a93c716da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d7bd6fae8cb973bcb59d8e6a721516') in 0.019355 seconds 
-  Import took 0.024046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.392578 seconds.
-  path: Assets/TankImages/Tank_without_barrel_2.png
-  artifactKey: Guid(3901e33ea7f583c44ad7c16ff175f24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TankImages/Tank_without_barrel_2.png using Guid(3901e33ea7f583c44ad7c16ff175f24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03725ba6158d451cc1a3a699602df509') in 0.039954 seconds 
-  Import took 0.044864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.870912 seconds.
-  path: Assets/TankImages/Tank_3_barrel.png
-  artifactKey: Guid(d064628d8fffbbc4a862e21d8c70072d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TankImages/Tank_3_barrel.png using Guid(d064628d8fffbbc4a862e21d8c70072d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad8f953ffb990b43c323847b9fefe8d') in 0.025020 seconds 
-  Import took 0.029752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.068125 seconds.
-  path: Assets/TankImages/Tank_without_barrel.png
-  artifactKey: Guid(03bea734e3a18ea46aca1fdc2cd96312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TankImages/Tank_without_barrel.png using Guid(03bea734e3a18ea46aca1fdc2cd96312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e239636895f2c1721ecf565ac1d2963a') in 0.032998 seconds 
-  Import took 0.039212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.172386 seconds.
-  path: Assets/Prefabs/PlayerPrefab.prefab
-  artifactKey: Guid(08595b0ce0318944b953d0e128149564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PlayerPrefab.prefab using Guid(08595b0ce0318944b953d0e128149564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd127345e07115cac7ebaf44296e15191') in 0.039560 seconds 
-  Import took 0.045346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Prefabs/PlayerTest.prefab
-  artifactKey: Guid(4cfbb77827a1f254a9509a0e56776f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PlayerTest.prefab using Guid(4cfbb77827a1f254a9509a0e56776f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85dddf94733e84dcde72256140360ec0') in 0.012582 seconds 
-  Import took 0.017821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 198.060002 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Balance.prefab
-  artifactKey: Guid(85908f88948c0174590909a990a61e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Balance.prefab using Guid(85908f88948c0174590909a990a61e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f97d7b1e4cc437a677c0e5e18f35f31') in 0.052567 seconds 
-  Import took 0.059321 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de175c13a660396f662459e445f91c02') in 0.032388 seconds 
-  Import took 0.038634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87de517425d2384dbeb2b19d28fd885') in 0.028870 seconds 
-  Import took 0.037629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5736ee3d937631913ed7da0b46987b') in 0.031348 seconds 
-  Import took 0.037197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.547888 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d7d6c70df14d4d3b8a43a8e51f475d') in 0.036015 seconds 
-  Import took 0.041717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000417 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991a0480ef8c574de921859b07f40551') in 0.085846 seconds 
-  Import took 0.091003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 77.558664 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e99921d67117145cba7d322cea3181') in 0.035229 seconds 
-  Import took 0.041693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2bbbfea8af98de98fc4212583ec659') in 0.043802 seconds 
-  Import took 0.048821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 83.404651 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60eac18f7c22ebb53fe6c8b443db0a4') in 0.043659 seconds 
-  Import took 0.051260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18edd90c84bf1d3325753811f5d95761') in 0.032326 seconds 
-  Import took 0.038137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccc4dca2b45da8c6bd64c02bbe90827') in 0.040122 seconds 
-  Import took 0.048497 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.4 MB.
-System memory in use after: 60.6 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3001.
-Total: 4.829286 ms (FindLiveObjects: 0.239985 ms CreateObjectMapping: 0.103239 ms MarkObjects: 4.382823 ms  DeleteObjects: 0.102333 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005143 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.346 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1347ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1146ms)
-			LoadAssemblies (113ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (445ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (393ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (248ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2539 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.1 MB.
-System memory in use after: 110.3 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3003.
-Total: 7.013604 ms (FindLiveObjects: 1.484587 ms CreateObjectMapping: 0.435596 ms MarkObjects: 4.947015 ms  DeleteObjects: 0.143991 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 120.290218 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c533a0d770ca0bf567281109601fbb01') in 0.119699 seconds 
-  Import took 0.127364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f48a30888ac023627893323f3997b7') in 0.034076 seconds 
-  Import took 0.039206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3eb0e3564c811e11087cc7531c2384') in 0.058296 seconds 
-  Import took 0.065000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.528084 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df9052d8d6eb7d2972be1aefd275192') in 0.043182 seconds 
-  Import took 0.050260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d164acebd808eddada3b35d8a91b30') in 0.025387 seconds 
-  Import took 0.031519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b137de2677eaef946ff965426228f0cf') in 0.049867 seconds 
-  Import took 0.056875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.107555 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0068fbd6fea004c0bc6c1540214884d5') in 0.046371 seconds 
-  Import took 0.054356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001886 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8adc6ea949d6a2084ef6b9659cb8e9b1') in 0.028802 seconds 
-  Import took 0.035102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097be063c3167f01f9b3f1feb805062e') in 0.054673 seconds 
-  Import took 0.060733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.028575 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a1be964be79e6e92edc34f5897e375') in 0.051465 seconds 
-  Import took 0.059190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b245f17477784b1f7ba26303cd680eb6') in 0.028386 seconds 
-  Import took 0.033519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10631071a3ec81aef5508c6930d59688') in 0.048260 seconds 
-  Import took 0.055507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.658394 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0208b71101381b3c5af12156df4026') in 0.046628 seconds 
-  Import took 0.053054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985b60c36ad05e6c98bf9216c68ee3b6') in 0.032747 seconds 
-  Import took 0.038552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6d54d1a114c5d0d32bf134c6511a59') in 0.044175 seconds 
-  Import took 0.052182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.689293 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf94d4ec6f4b0f33c9be180d994e076') in 0.044142 seconds 
-  Import took 0.050217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1c9826d914866979f8eb5ea28f77fd') in 0.028281 seconds 
-  Import took 0.034283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c636cc01171f80758576fdfd6ec6b291') in 0.048916 seconds 
-  Import took 0.056151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.878642 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1fbd6556d1a5df4dc7709e85c45259') in 0.046995 seconds 
-  Import took 0.054484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000559 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3753b9ef1755b0d7c096dc59866039') in 0.022957 seconds 
-  Import took 0.029804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b10012efad4c164c283bde7b5895a9') in 0.049962 seconds 
-  Import took 0.058479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.155811 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d510c4d27456322401f42641b64066c') in 0.042094 seconds 
-  Import took 0.051458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05824e54b68b38530417ee4f4bbf0b0') in 0.029005 seconds 
-  Import took 0.035308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed07f4625d0194330d8861b01a0c4538') in 0.042695 seconds 
-  Import took 0.052048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.561332 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4495ce12d354fb8afe04cdeba5128282') in 0.047491 seconds 
-  Import took 0.054531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888c003bb93e75e0dc06a3f72b74b5d6') in 0.031395 seconds 
-  Import took 0.040423 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67162014f2aa6c241d6a7d66a442db5') in 0.050494 seconds 
-  Import took 0.058344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.069149 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9d6a13e67877f9bde0da8c2d94be2f') in 0.046570 seconds 
-  Import took 0.053529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7502945228af83e52c5db1cd986f6d') in 0.032808 seconds 
-  Import took 0.038392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4593f134affbfd8e516e53eef0086e') in 0.044703 seconds 
-  Import took 0.051143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.773823 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f7793c613c48420d890b2654c8af26') in 0.047941 seconds 
-  Import took 0.054732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1645b3c9b611c6bc22b517bd82bcf83c') in 0.034517 seconds 
-  Import took 0.039998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9fa5f866865e23d8632c3a615af4c2') in 0.047160 seconds 
-  Import took 0.057152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.121608 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e56a575a4758b2a7bc1c0360682a7b') in 0.048011 seconds 
-  Import took 0.057900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5120ef78439240b95e2cd61851e24ce9') in 0.032670 seconds 
-  Import took 0.038371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22be3d4468493b9e6a736302d407f45') in 0.047453 seconds 
-  Import took 0.054452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.550744 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49484bbda547d5e9164376f9e7d6204') in 0.046044 seconds 
-  Import took 0.055923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd79609bed49599fabaf1932ce6aa3f1') in 0.034435 seconds 
-  Import took 0.039419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab58f0f5bf31e7fb10bc5b566daa3622') in 0.046526 seconds 
-  Import took 0.054348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.169776 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377bd575054a5784f80763d99964cb9b') in 0.048880 seconds 
-  Import took 0.057210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c6721cb4ac414a8050f5a284e0c7fa') in 0.031760 seconds 
-  Import took 0.038698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148b683bcb9c5fe674d0f36787634168') in 0.046930 seconds 
-  Import took 0.055026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.684849 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22159f96a6d42f3b068d3cf8126f3c00') in 0.047555 seconds 
-  Import took 0.053948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083fae3e243ad1420491d8f12ad5f497') in 0.033942 seconds 
-  Import took 0.038874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c930d6f282933317ba59b6cf90ab95f') in 0.047180 seconds 
-  Import took 0.057528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.837895 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb4422cfeb5139fad11ba4e2288f5e1') in 0.051524 seconds 
-  Import took 0.058520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531b4dc2ff183cba013b64e4dbf611b0') in 0.026835 seconds 
-  Import took 0.034006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e4c6d38d6dea2376bc7cd87fffd9fb') in 0.055272 seconds 
-  Import took 0.063638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.709146 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e018908c25e51a4a929fa154e2df3822') in 0.044579 seconds 
-  Import took 0.052121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3218785ba757045c983b133e9abe5826') in 0.027270 seconds 
-  Import took 0.032584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8539f816e48b9404e079874a8f0cfa9a') in 0.049919 seconds 
-  Import took 0.058954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.382405 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3669d1d7a9a427dbdd696174bd51660f') in 0.050237 seconds 
-  Import took 0.057302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01d3c0c511265885b80ff7728ac9c62') in 0.049413 seconds 
-  Import took 0.056327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.494049 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d23b0773d20c01c480ff8e12346e59') in 0.043916 seconds 
-  Import took 0.049974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd334d8bbec5c42c1aeedbe8f415ecebe') in 0.055900 seconds 
-  Import took 0.063700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.795711 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9c23318eda2fba939c1ef3027fd4e6') in 0.049723 seconds 
-  Import took 0.057169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db233b855a7a97928725c220f7086f5') in 0.046478 seconds 
-  Import took 0.053712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.968415 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a296e83394c4bdbeee024bed7911d26') in 0.043238 seconds 
-  Import took 0.053558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000502 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d861792f759863a06ec3c693d7354de') in 0.045077 seconds 
-  Import took 0.053574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.278157 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Balance.prefab
-  artifactKey: Guid(85908f88948c0174590909a990a61e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Balance.prefab using Guid(85908f88948c0174590909a990a61e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4069a881ed27ac89218b24e20c5c09bc') in 0.025481 seconds 
-  Import took 0.034007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9278024f990dc31e6944a65066ba8b5c') in 0.039529 seconds 
-  Import took 0.046346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001622 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538f5ff03366a74f62049087739a1034') in 0.024328 seconds 
-  Import took 0.030939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000609 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e8943c9e662b886ed221ae889a3824') in 0.044013 seconds 
-  Import took 0.053091 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.674702 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Balance.prefab
-  artifactKey: Guid(85908f88948c0174590909a990a61e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Balance.prefab using Guid(85908f88948c0174590909a990a61e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1d8042ab658bc17882d29693a8a799') in 0.022304 seconds 
-  Import took 0.028098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5505d9add3128fdf0fd05c07fd27e6') in 0.043232 seconds 
-  Import took 0.049537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa55b4d3e2811556a94c997b88df4ba') in 0.023027 seconds 
-  Import took 0.030489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3ac4f2960dfeada0aa2834a2220534') in 0.045016 seconds 
-  Import took 0.051907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.288661 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Balance.prefab
-  artifactKey: Guid(85908f88948c0174590909a990a61e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Balance.prefab using Guid(85908f88948c0174590909a990a61e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d3ff00ac54851e5465a14cb7cbc976') in 0.025710 seconds 
-  Import took 0.031130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64fe4bc35acbe48fd9dcd24009948bd7') in 0.045494 seconds 
-  Import took 0.051463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3beb7b858c2b65f5cdf63bbcb8bb46') in 0.025483 seconds 
-  Import took 0.031042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7142fff29d0dabba143814bbcf458139') in 0.041091 seconds 
-  Import took 0.047954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.653606 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Balance.prefab
-  artifactKey: Guid(85908f88948c0174590909a990a61e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Balance.prefab using Guid(85908f88948c0174590909a990a61e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9984e19744d8998949d103b19796cb1f') in 0.024270 seconds 
-  Import took 0.029631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38dbf90e1a704b2bce8f5b4d82278169') in 0.046128 seconds 
-  Import took 0.052331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000825 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78091e6c8fbf24d02ca7095f97d0665a') in 0.030365 seconds 
-  Import took 0.035916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dbed5f5cd2f79fb93473ff13770507') in 0.042212 seconds 
-  Import took 0.050217 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.8 MB.
-System memory in use after: 61.0 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3004.
-Total: 4.997427 ms (FindLiveObjects: 0.440426 ms CreateObjectMapping: 0.122860 ms MarkObjects: 4.368635 ms  DeleteObjects: 0.063996 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004557 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.276 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1277ms)
-		BeginReloadAssembly (126ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1085ms)
-			LoadAssemblies (109ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (421ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (372ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (231ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (236ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2539 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.2 MB.
-System memory in use after: 110.4 MB.
+Unloading 2550 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.5 MB.
+System memory in use after: 107.7 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3006.
-Total: 5.749078 ms (FindLiveObjects: 0.508648 ms CreateObjectMapping: 0.186856 ms MarkObjects: 4.973881 ms  DeleteObjects: 0.077882 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2979.
+Total: 3.720816 ms (FindLiveObjects: 0.279831 ms CreateObjectMapping: 0.108974 ms MarkObjects: 3.246885 ms  DeleteObjects: 0.083919 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1038,638 +133,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 182.948787 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f02d80b5ff6b379b93ea6822ebcf1f4') in 0.109194 seconds 
-  Import took 0.116396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12371619456e46a551d5134ca968c9dd') in 0.030930 seconds 
-  Import took 0.035997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fcce654de0d8f9cab22a4aa4b7a2b9') in 0.040229 seconds 
-  Import took 0.048234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.443571 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3442c5b4468eea3ff34ece2ba058d9c2') in 0.039922 seconds 
-  Import took 0.046929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b804aac612c13ac863099af6869cc9da') in 0.065362 seconds 
-  Import took 0.070619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ccb6e72dc34e87ccf8286e3fca6e0a') in 0.043353 seconds 
-  Import took 0.051141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.640583 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a9df0ffb9224022bb7b6368792ab67') in 0.038365 seconds 
-  Import took 0.045405 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248f797cfda7664d88b4d9b473c8835c') in 0.029298 seconds 
-  Import took 0.035807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506757db09ed72bd72071411ddbdcc08') in 0.038122 seconds 
-  Import took 0.045798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.529529 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb81547c9a713260d7d50ca837660bf') in 0.042041 seconds 
-  Import took 0.048575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601e7a16d53b217c2071891450aabde3') in 0.034475 seconds 
-  Import took 0.039545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba5a4fdb576a73fe25cbc025102628b') in 0.047099 seconds 
-  Import took 0.054882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.470011 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6095bf18e966194a1d9807c4b823fd44') in 0.037433 seconds 
-  Import took 0.043398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848b2bf190f0b05901de76693cecdcee') in 0.027714 seconds 
-  Import took 0.033544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fe53b6b24601b6c936dbc368ce9ec1') in 0.040620 seconds 
-  Import took 0.047622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.140960 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6adbe2b4c60a354613c1f769905163') in 0.040588 seconds 
-  Import took 0.047474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c197f938f80c4efc9c99cc0cabaf68') in 0.028939 seconds 
-  Import took 0.035206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af3960c7616a13c9c398c4d3c7ab818') in 0.040720 seconds 
-  Import took 0.049475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.787094 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5a93b6b0e4e0263c14df0f2774ea97') in 0.050926 seconds 
-  Import took 0.057976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997badcec9786f2219fa8cdecaa7e0ed') in 0.033251 seconds 
-  Import took 0.038859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379d293ee0aab424e17a03839b57c86c') in 0.038961 seconds 
-  Import took 0.046570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.083670 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378a2ec13f257d2af6611fee9a22f60f') in 0.036832 seconds 
-  Import took 0.044872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9242770f7e674b80d6ca004d3bff536') in 0.029700 seconds 
-  Import took 0.036090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d28406df52fdf1fddd7cb9e30550fe') in 0.037264 seconds 
-  Import took 0.044333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.939749 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2ab28d97d35bc3041e7ccf790b9435') in 0.041099 seconds 
-  Import took 0.047837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e495c679952142ad49686591af03bb2') in 0.028353 seconds 
-  Import took 0.033767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e579cf84a64317d00bdd5cd4348293') in 0.040404 seconds 
-  Import took 0.048298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.827123 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d8b4a471f8dc5c1286c73e0d471578') in 0.046255 seconds 
-  Import took 0.052526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8d11e1b7f4e45628bca5147465d6aa') in 0.028558 seconds 
-  Import took 0.033323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25f72c16cbf76ad112c42c91fe11821') in 0.042974 seconds 
-  Import took 0.049644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.687584 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e368bdef6bec62ef029609d068b9b8') in 0.038818 seconds 
-  Import took 0.046702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf52b18e8543948a4b792cc3ae3e59f') in 0.026112 seconds 
-  Import took 0.032098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67484fbf77fd48237b1b0c3e37f618ce') in 0.040292 seconds 
-  Import took 0.046236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.898900 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd877702959d8335cc3625488c71875ad') in 0.103772 seconds 
-  Import took 0.110809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02eb97926b72cbf1cb438e26471fe80a') in 0.056732 seconds 
-  Import took 0.063474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.550896 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af34ae38c6cb6a6a8442ec3914610a0') in 0.038339 seconds 
-  Import took 0.045051 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a097eaad69877d019e18053acb94bc') in 0.045434 seconds 
-  Import took 0.051822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.140119 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede1381c1b0caff58d3fb9c0c9661896') in 0.038624 seconds 
-  Import took 0.045448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894ab912ca80ee127d6ba3876d3174d8') in 0.042160 seconds 
-  Import took 0.049189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.335521 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8785a8a4396b4112d93a44e58e916f10') in 0.037482 seconds 
-  Import took 0.043852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5b620ea63a53a1804a18975d78fdee') in 0.041875 seconds 
-  Import took 0.048303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.476359 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Balance.prefab
-  artifactKey: Guid(85908f88948c0174590909a990a61e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Balance.prefab using Guid(85908f88948c0174590909a990a61e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de433d677e30ffb6717ee0a6c9f497a') in 0.019840 seconds 
-  Import took 0.026145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b866fd20b822e8cadc052be947b235f3') in 0.047448 seconds 
-  Import took 0.057381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7384c2aeb63c07bb0bb95059ed272112') in 0.027936 seconds 
-  Import took 0.034010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27937d27e60e054c233cfc515a2faa71') in 0.041706 seconds 
-  Import took 0.048758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.906594 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Balance.prefab
-  artifactKey: Guid(85908f88948c0174590909a990a61e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Balance.prefab using Guid(85908f88948c0174590909a990a61e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b5aee5a85286c6859c4df32f997c04') in 0.024736 seconds 
-  Import took 0.030376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7c73973998f979fefe949fa25f205a') in 0.045657 seconds 
-  Import took 0.051679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa47aa066c345d1c4b7a9cd1272b889b') in 0.031424 seconds 
-  Import took 0.037087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4986ff0e3c6adbd94ebd59b8ef6c1bd0') in 0.047884 seconds 
-  Import took 0.059185 seconds .
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(d022d686b9112054a9a49ce2252a17f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(d022d686b9112054a9a49ce2252a17f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3782fd29d8184adec14e9c64bad3007') in 0.837515 seconds 
+  Import took 0.842836 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007024 seconds.
+Registered in 0.004831 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.275 seconds
+- Completed reload, in  1.306 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1275ms)
-		BeginReloadAssembly (192ms)
+	ReloadAssembly (1306ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1022ms)
-			LoadAssemblies (172ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1110ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (416ms)
+			SetupTypeCache (485ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (340ms)
+			SetupLoadedEditorAssemblies (330ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (208ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (207ms)
 				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2539 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.4 MB.
-System memory in use after: 110.6 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3009.
-Total: 4.500250 ms (FindLiveObjects: 0.279530 ms CreateObjectMapping: 0.102333 ms MarkObjects: 4.049259 ms  DeleteObjects: 0.067618 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.29 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.3 MB.
-System memory in use after: 60.5 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3009.
-Total: 3.635700 ms (FindLiveObjects: 0.275907 ms CreateObjectMapping: 0.119540 ms MarkObjects: 3.170521 ms  DeleteObjects: 0.068222 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006172 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.515 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1516ms)
-		BeginReloadAssembly (136ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (1294ms)
-			LoadAssemblies (123ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (488ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (453ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (129ms)
-				ProcessInitializeOnLoadAttributes (280ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2539 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.4 MB.
-System memory in use after: 110.6 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3011.
-Total: 6.567443 ms (FindLiveObjects: 0.345639 ms CreateObjectMapping: 0.120747 ms MarkObjects: 5.993893 ms  DeleteObjects: 0.104446 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 334.471608 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Balance.prefab
-  artifactKey: Guid(85908f88948c0174590909a990a61e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Balance.prefab using Guid(85908f88948c0174590909a990a61e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033981ee64761007b34bc2c76d7118b4') in 0.086526 seconds 
-  Import took 0.093223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951c9c600b4a6aebefbc6120f14b2e4b') in 0.044846 seconds 
-  Import took 0.052918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbf4cbb9d59fea0710870bfa546d68c') in 0.027773 seconds 
-  Import took 0.034474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3aa667d7c0e99e97a11072f12360dc4') in 0.043776 seconds 
-  Import took 0.051866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.873500 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Balance.prefab
-  artifactKey: Guid(85908f88948c0174590909a990a61e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Balance.prefab using Guid(85908f88948c0174590909a990a61e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b594bc87900b14a95e1df7d02ac3c910') in 0.021976 seconds 
-  Import took 0.028022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab
-  artifactKey: Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Heavy.prefab using Guid(c3499e12fe783ba49af1b0bf86aae96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c614d51a5335f646bacc802593254e6') in 0.042703 seconds 
-  Import took 0.049818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank Speed.prefab
-  artifactKey: Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank Speed.prefab using Guid(1d1990c5af02ee24ab807464d74e70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f67aa29af56e9f20d9ed5d7ee3f4af8') in 0.029664 seconds 
-  Import took 0.035923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Prefabs/Tank Prefabs/Tank.prefab
-  artifactKey: Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank Prefabs/Tank.prefab using Guid(6922c55c01227b74c8d58a5371a3e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba0082dbdc72e7b814233df894eef7e') in 0.044154 seconds 
-  Import took 0.051248 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004558 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.133 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1133ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (957ms)
-			LoadAssemblies (98ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (379ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (325ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (211ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2539 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.3 MB.
-System memory in use after: 110.5 MB.
+System memory in use before: 107.0 MB.
+System memory in use after: 107.2 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3014.
-Total: 3.991300 ms (FindLiveObjects: 0.259305 ms CreateObjectMapping: 0.106861 ms MarkObjects: 3.557516 ms  DeleteObjects: 0.065807 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2981.
+Total: 4.703998 ms (FindLiveObjects: 0.357713 ms CreateObjectMapping: 0.120445 ms MarkObjects: 4.163656 ms  DeleteObjects: 0.061279 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1682,127 +195,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.3 MB.
-System memory in use after: 60.5 MB.
+Received Import Request.
+  Time since last request: 41.323657 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(d022d686b9112054a9a49ce2252a17f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(d022d686b9112054a9a49ce2252a17f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27cf4ae9dea51c2eafb98da538c26862') in 0.014337 seconds 
+  Import took 0.018863 seconds .
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3014.
-Total: 5.575202 ms (FindLiveObjects: 0.267153 ms CreateObjectMapping: 0.123464 ms MarkObjects: 5.100364 ms  DeleteObjects: 0.083316 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004874 seconds.
+Registered in 0.007080 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.305 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1306ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (1102ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (427ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (376ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (233ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2539 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.4 MB.
-System memory in use after: 110.6 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3016.
-Total: 3.884439 ms (FindLiveObjects: 0.366166 ms CreateObjectMapping: 0.239381 ms MarkObjects: 3.214292 ms  DeleteObjects: 0.063694 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005969 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.409 seconds
+- Completed reload, in  1.341 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1410ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (1342ms)
+		BeginReloadAssembly (159ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1224ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (1121ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (423ms)
+			SetupTypeCache (428ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (503ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (349ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (276ms)
-				ProcessInitializeOnLoadAttributes (200ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2539 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.4 MB.
-System memory in use after: 110.6 MB.
+System memory in use before: 107.0 MB.
+System memory in use after: 107.2 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3018.
-Total: 3.765805 ms (FindLiveObjects: 0.342922 ms CreateObjectMapping: 0.108974 ms MarkObjects: 3.253534 ms  DeleteObjects: 0.058864 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2983.
+Total: 3.457286 ms (FindLiveObjects: 0.255983 ms CreateObjectMapping: 0.120445 ms MarkObjects: 3.020484 ms  DeleteObjects: 0.059166 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.0 MB.
+System memory in use after: 57.2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2983.
+Total: 5.478589 ms (FindLiveObjects: 0.364958 ms CreateObjectMapping: 0.315451 ms MarkObjects: 4.691923 ms  DeleteObjects: 0.103842 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
