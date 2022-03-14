@@ -62,7 +62,7 @@ public class PhaseUI : MonoBehaviour
                 {
                     if (player.myTank != null)
                     {
-                        Playernum = player.playerNum;
+                        Playernum = player.playerNum + 1;
                     }
                 }
                 text.text ="Player " + Playernum.ToString() + " Won, Press enter for another round";
