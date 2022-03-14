@@ -92,46 +92,7 @@ public class Player : NetworkBehaviour
         //NetworkServer.Spawn(go);
 
         //myTank = Instantiate(TankPrefab);
-        /* if (tankNum == 1)
-         {
-             if (playerNum == 1)
-             {
-                 myTank = Instantiate(BalancePrefab, new Vector2(-16, 11), Quaternion.Euler(0, 0, 0));
-             }
-             if (playerNum == 2)
-             {
-                 myTank = Instantiate(BalancePrefab, new Vector2(29, 5), Quaternion.Euler(0, 0, 0));
-             }
-         }
-
-
-
-         if (tankNum == 2)
-         {
-             if (playerNum == 1)
-             {
-                 myTank = Instantiate(SpeedPrefab, new Vector2(-16, 11), Quaternion.Euler(0, 0, 0));
-             }
-             if (playerNum == 2)
-             {
-                 myTank = Instantiate(SpeedPrefab, new Vector2(29, 5), Quaternion.Euler(0, 0, 0));
-             }
-         }
-
-
-
-         if (tankNum == 3)
-         {
-             if (playerNum == 1)
-             {
-                 myTank = Instantiate(HeavyPrefab, new Vector2(-16, 11), Quaternion.Euler(0, 0, 0));
-             }
-             if (playerNum == 2)
-             {
-                 myTank = Instantiate(HeavyPrefab, new Vector2(29, 5), Quaternion.Euler(0, 0, 0));
-             }
-         }
-        */
+      
         SpawnMyTank();
         myTank = Instantiate(currentTank, new Vector2(29, 5), Quaternion.Euler(0, 0, 0));
 

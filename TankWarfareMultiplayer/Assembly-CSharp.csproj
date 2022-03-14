@@ -50,8 +50,8 @@
      <Compile Include="Assets\Scripts\Test Scripts\Projectile.cs" />
      <Compile Include="Assets\Scripts\SelfDestruct.cs" />
      <Compile Include="Assets\Scripts\Test Scripts\ProjectileSpawner.cs" />
-     <Compile Include="Assets\Water.cs" />
-     <Compile Include="Assets\LobbyScript.cs" />
+     <Compile Include="Assets\Scripts\Water.cs" />
+     <Compile Include="Assets\Scripts\LobbyScript.cs" />
      <Compile Include="Assets\Noble Connect\Mirror\Examples\NetworkManager\ExampleMirrorNobleNetworkManager.cs" />
      <Compile Include="Assets\Noble Connect\Common\NobleConnectSettings.cs" />
      <Compile Include="Assets\Noble Connect\Mirror\Internal\NobleClient.cs" />
@@ -63,11 +63,11 @@
      <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Tank.cs" />
-     <Compile Include="Assets\roundScript.cs" />
+     <Compile Include="Assets\Scripts\roundScript.cs" />
      <Compile Include="Assets\Noble Connect\Mirror\Examples\GUILabelFromText.cs" />
      <Compile Include="Assets\Noble Connect\Mirror\Examples\MirrorExamplePlayer.cs" />
      <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
-     <Compile Include="Assets\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Lobby\Lobby.cs" />
      <Compile Include="Assets\Scripts\BulletExplosion.cs" />
      <Compile Include="Assets\Scripts\MainMenu\NetworkRoomPlayerMenu.cs" />
