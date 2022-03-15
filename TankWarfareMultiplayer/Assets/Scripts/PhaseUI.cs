@@ -1,4 +1,4 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -62,10 +62,10 @@ public class PhaseUI : MonoBehaviour
                 {
                     if (player.myTank != null)
                     {
-                        Playernum = player.playerNum + 1;
+                        Playernum = player.playerNum;
                     }
                 }
-                text.text ="Player " + Playernum.ToString() + " Won, Press enter for another round";
+                text.text = "Player " + (Playernum + 1).ToString() + " Won, Press enter for another round";
                 return;
             }
         }
