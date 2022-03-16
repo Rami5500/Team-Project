@@ -65,7 +65,7 @@ public class PhaseUI : MonoBehaviour
                         Playernum = player.playerNum;
                     }
                 }
-                text.text = "Player " + (Playernum + 1).ToString() + " Won, Press enter for another round";
+                text.text = "Player " + (Playernum).ToString() + " Won, Press enter for another round";
                 return;
             }
         }

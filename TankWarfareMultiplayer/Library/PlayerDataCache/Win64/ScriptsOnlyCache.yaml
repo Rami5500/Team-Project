@@ -25,6 +25,7 @@ ScriptsOnlyBuild:
     - roundScript
     - victoryMenu
     Mirror.Components.dll:
+    - Mirror.Experimental.NetworkRigidbody2D
     - Mirror.NetworkTransform
     Mirror.dll:
     - Mirror.NetworkIdentity
@@ -34,6 +35,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
@@ -239,6 +241,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1494}
     - Class: 114
+      Script: {instanceID: 1780}
+    - Class: 114
       Script: {instanceID: 2110}
     - Class: 114
       Script: {instanceID: 2522}
@@ -263,6 +267,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4176}
     - Class: 114
+      Script: {instanceID: 4380}
+    - Class: 114
       Script: {instanceID: 4972}
     - Class: 114
       Script: {instanceID: 4974}
@@ -277,11 +283,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5592}
     - Class: 114
+      Script: {instanceID: 5798}
+    - Class: 114
       Script: {instanceID: 5846}
     - Class: 114
       Script: {instanceID: 5938}
     - Class: 114
       Script: {instanceID: 6204}
+    - Class: 114
+      Script: {instanceID: 6576}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -299,6 +309,14 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 19719996
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
       Script: {instanceID: 0}
     Assets/Scenes/Scene_Victory.unity:
     - Class: 1
@@ -792,7 +810,7 @@ ScriptsOnlyBuild:
     className: RuleOverrideTile
   - hash:
       serializedVersion: 2
-      Hash: 2eba46f927aa165075a0e283e895c8ea
+      Hash: e296ab4385365dc1472d505c50284c8c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -1206,7 +1224,7 @@ ScriptsOnlyBuild:
     className: Tank
   - hash:
       serializedVersion: 2
-      Hash: a60cd9f9c60e5312b8877db5ef9ba49a
+      Hash: bf53f8e8be3110e186d44202bc3a70a4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerLobby
@@ -1518,7 +1536,7 @@ ScriptsOnlyBuild:
     className: NetworkAnimator
   - hash:
       serializedVersion: 2
-      Hash: 14ade5535e0b7670b84e80374484e2d5
+      Hash: 01e582075502e4302969e0760d968ae0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player

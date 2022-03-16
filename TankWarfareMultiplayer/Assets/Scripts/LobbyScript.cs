@@ -60,9 +60,26 @@ public class LobbyScript : NetworkBehaviour
         changeTank(3);
     }
 
+    public void ChangeFloatMap()
+    {
+        changeMap(1);
+    }
+
+    public void ChangeDesertMap()
+    {
+        changeMap(2);
+    }
+
+    public void ChangeIceMap()
+    {
+        changeMap(3);
+    }
+
+
+
     //[Command(requiresAuthority = false)]
-   //[Server]
-  //  [Command(requiresAuthority = false)]
+    //[Server]
+    //  [Command(requiresAuthority = false)]
     //[Server]
     //[Command]
     void changeTank(int i)
@@ -80,6 +97,23 @@ public class LobbyScript : NetworkBehaviour
 
         }
     }
+
+     void changeMap(int i)
+    {
+        PlayerLobby[] Players = GameObject.FindObjectsOfType<PlayerLobby>();
+        //myTank = Instantiate(TankPrefab);
+        //myTank = TankPrefab;
+        // Debug.Log(myTank);
+        foreach (PlayerLobby player in Players)
+        {
+            if (player.hasAuthority)
+            {
+                player.ChangeMap(i);
+            }
+
+        }
+    }
+
 
 
 }

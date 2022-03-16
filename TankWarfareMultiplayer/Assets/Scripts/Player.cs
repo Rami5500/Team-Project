@@ -40,6 +40,10 @@ public class Player : NetworkBehaviour
 
     public GameObject currentTank;
 
+    [SyncVar]
+    public int mapNum;
+
+
 
     [Tooltip("Diagnostic flag indicating whether this player is ready for the game to begin")]
     [SyncVar]
@@ -52,6 +56,7 @@ public class Player : NetworkBehaviour
     [SyncVar]
     public int playerNum;
 
+    
     [Command(requiresAuthority = false)]
     public void ChangeTank(GameObject newTankPrefab)
     {
@@ -146,9 +151,17 @@ public class Player : NetworkBehaviour
         tankNum = i;
     }
 
-        // Update is called once per frame
 
-        void Update()
+    [Command(requiresAuthority = false)]
+    public void ChangeMyMap(int i)
+    {
+
+       mapNum = i;
+    }
+
+    // Update is called once per frame
+
+    void Update()
     {
         
         if (Input.GetKey(KeyCode.Escape))

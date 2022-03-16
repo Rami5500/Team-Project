@@ -52,7 +52,7 @@
      <Compile Include="Assets\Scripts\Test Scripts\ProjectileSpawner.cs" />
      <Compile Include="Assets\Scripts\Water.cs" />
      <Compile Include="Assets\Scripts\LobbyScript.cs" />
-     <Compile Include="Assets\victoryMenu.cs" />
+     <Compile Include="Assets\Scripts\victoryMenu.cs" />
      <Compile Include="Assets\Noble Connect\Mirror\Examples\NetworkManager\ExampleMirrorNobleNetworkManager.cs" />
      <Compile Include="Assets\Noble Connect\Common\NobleConnectSettings.cs" />
      <Compile Include="Assets\Noble Connect\Mirror\Internal\NobleClient.cs" />
@@ -79,7 +79,7 @@
      <Compile Include="Assets\Noble Connect\Common\Config.cs" />
      <Compile Include="Assets\Noble Connect\Mirror\Internal\NobleRoomManager.cs" />
      <Compile Include="Assets\Noble Connect\Mirror\Examples\Lobby\ExampleMirrorNobleNetworkLobbyManager.cs" />
-     <Compile Include="Assets\playerScoreTxt.cs" />
+     <Compile Include="Assets\Scripts\playerScoreTxt.cs" />
      <Compile Include="Assets\Scripts\CountdownTimerUI.cs" />
      <Compile Include="Assets\Noble Connect\Mirror\Internal\NobleNetworkManager.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />

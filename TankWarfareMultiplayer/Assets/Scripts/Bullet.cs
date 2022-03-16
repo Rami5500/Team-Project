@@ -106,12 +106,29 @@ public class Bullet : NetworkBehaviour
                
             }
         }
+       
         RpcDoExplosion(this.transform.position);
-        TerrainDestroyer.instance.DestroyTerrain(this.transform.position, 2);
+        //terrainDestroyer.instance.DestroyTerrain(this.transform.position, 2);
+       
+            DestroyTerrain(this.transform.position, 2);
+        
+       
+            RPCDestroyTerrain(this.transform.position, 2);
+        
         // Destroy(gameObject);
         Die();
     }
 
+    void DestroyTerrain(Vector3 location, int radius)
+    {
+        TerrainDestroyer.instance.DestroyTerrain(location, radius);
+    }
+
+    [ClientRpc]
+    void RPCDestroyTerrain(Vector3 location, int radius)
+    {
+        TerrainDestroyer.instance.DestroyTerrain(location, radius);
+    }
 
       void Die()
     {

@@ -11,7 +11,8 @@ public class GameManager : NetworkBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+       
+  
         //StartNewMatch();
         //Note: Start() runs before anyone connects to a server
     }
@@ -81,17 +82,57 @@ public class GameManager : NetworkBehaviour
     public GameObject terrain;
 
 
-  
+    [SyncVar, System.NonSerialized]
+    public bool mapSet = false;
+
+
+    //[SyncVar]
+    public GameObject currentMap;
+
+
+    
+    public GameObject myMap;
+
+    [SyncVar]
+    public GameObject iceMap;
+
+    [SyncVar]
+    public GameObject desertMap;
+
+    [SyncVar]
+    public GameObject floatMap;
+
+
+
+    [SyncVar]
+    public int MapNum;
+
+
+
 
 
     // Update is called once per frame
     void Update()
     {
-      
+       
         if (isServer == false)
         {
             return;
         }
+        if(myMap != null)
+        {
+            mapSet = true;
+        }
+
+        if(GetAllPlayer().Length == 2 && mapSet == false)
+        {
+                  
+                    Debug.Log("IF sTATEMENT");
+                    //currentMap = floatMap;
+                    loadMap();
+                
+        }
+
         if (Input.GetKey(KeyCode.Escape))
         {
 
@@ -311,7 +352,9 @@ public class GameManager : NetworkBehaviour
         //Destroy(gameObject);
         Round += 1;
         Player[] players = GetAllPlayer();
-         terrain.GetComponent<TerrainDestroyer>().RestartMap();
+        // terrain.GetComponent<TerrainDestroyer>().RestartMap();
+        Destroy(myMap);
+        loadMap();
         AddScore();
         Tank[] tanks = GetAllTanks();
          foreach (Tank tank in tanks)
@@ -372,6 +415,7 @@ public class GameManager : NetworkBehaviour
 
     void StartNewMatch()
     {
+       
         matchHasStarted = true;
         TurnNumber = 0;
      
@@ -382,13 +426,16 @@ public class GameManager : NetworkBehaviour
         players[0].setPlayer(1);
         players[1].setPlayer(2);
 
-       /*foreach (Player player in players)
-        {
-         
-            player.SpawnTank();
-        }
-       */
-       
+        /*foreach (Player player in players)
+         {
+
+             player.SpawnTank();
+         }
+        */
+        Debug.Log("IF sTATEMENT");
+        currentMap = floatMap;
+
+
         Tank[] tanks = GetAllTanks();
         tanks[1].ChangePosition(new Vector3(-16, 11, 0));
         tanks[0].ChangePosition(new Vector3(29, 5, 0));
@@ -501,6 +548,87 @@ public class GameManager : NetworkBehaviour
 
 
         return true;
+    }
+
+
+
+    // [Server]
+
+    //[Command(requiresAuthority = false)]
+    //[ClientRpc]
+    //   [ClientRpc]
+    [Server]
+    void loadMap()
+    {
+        Debug.Log("Load Map");
+        settNumMap();
+        //currentMap = floatMap;
+        swapMap();
+        if (isServer)
+        {
+            Debug.Log("isSERVER");
+            
+            myMap = Instantiate(currentMap);
+            NetworkServer.Spawn(myMap, connectionToClient);
+        }
+      
+    }
+
+    [Server]
+    void settNumMap()
+    {
+        Player[] players = GetAllPlayer();
+    
+
+        foreach (Player player in players)
+         {
+
+            if (player.isServer) ;
+            {
+                MapNum = player.mapNum;
+            }
+         }
+    }
+
+    [Server]
+    void swapMap()
+    {
+        if(MapNum == 1)
+        {
+            currentMap = floatMap;
+        }
+
+        if (MapNum == 2)
+        {
+            currentMap = desertMap;
+        }
+
+
+        if (MapNum == 3)
+        {
+            currentMap = iceMap;
+        }
+    }
+
+
+
+
+    [ClientRpc]
+    public void RpcSetMap()
+    {
+        swapMap();
+    }
+
+
+
+
+    IEnumerator WaitForReady()
+    {
+        while (!connectionToClient.isReady)
+        {
+            yield return new WaitForSeconds(0.25f);
+        }
+        loadMap();
     }
 
 

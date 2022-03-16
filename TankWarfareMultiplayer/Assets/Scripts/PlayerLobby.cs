@@ -26,6 +26,10 @@ public class PlayerLobby : NetworkBehaviour
     public int tankNum = 1;
 
 
+    [SyncVar]
+    public int mapNum = 1;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -61,6 +65,7 @@ public class PlayerLobby : NetworkBehaviour
                         myPlayer.setPlayer(1);
                     }
                     myPlayer.ChangeMyTank(tankNum);
+                    myPlayer.ChangeMyMap(mapNum);
                     myPlayer.SpawnTank();
                     hasSpawned = true;
                 }
@@ -76,6 +81,13 @@ public class PlayerLobby : NetworkBehaviour
     {
         myPlayer = player;
     }
+
+    [Command]
+    public void ChangeMap(int i)
+    {
+        mapNum = i;
+    }
+
 
 
     //[Server]
