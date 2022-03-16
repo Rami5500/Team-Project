@@ -126,7 +126,7 @@ public class Player : NetworkBehaviour
     }
 
 
-    public void SpawnMyTank()
+    public void SpawnMyTank() //Changes the prefab depending on what tank they selected
     {
         if(tankNum == 1)
         {

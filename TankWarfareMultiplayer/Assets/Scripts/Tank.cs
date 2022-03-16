@@ -18,10 +18,11 @@ public class Tank : NetworkBehaviour
     float MovementLeft;
     private bool facingRight;
 
-    float Speed = 5;
+    public float Speed = 5;
     float TurretSpeed = 180;
     float TurretPowerSpeed = 10;
 
+  
 
     public GameObject CurrentBulletPrefab;
     public Transform TurretPivot;
@@ -81,6 +82,8 @@ public class Tank : NetworkBehaviour
         if ( hasAuthority == false || tankTurn == false)
         {
             transform.position = Vector3.SmoothDamp(transform.position, serverPosition,ref serverPositionSmoothVelocity , 0.25f);
+            //RpcFixPosition(Vector3.SmoothDamp(transform.position, serverPosition, ref serverPositionSmoothVelocity, 0.25f));
+           // ChangePosition(Vector3.SmoothDamp(transform.position, serverPosition, ref serverPositionSmoothVelocity, 0.25f));
         }
 
         Vector3 euler = transform.eulerAngles;

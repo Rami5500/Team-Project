@@ -156,9 +156,9 @@ public class GameManager : NetworkBehaviour
                 Debug.Log("GAME OVER");
                 if (Input.GetKey(KeyCode.Return))
                  {
-                    //SceneManager.LoadScene("Scene_Victory");
-                    NetworkManager.singleton.StopHost();
-                    NetworkManager.singleton.StopClient();
+                    SceneManager.LoadScene("Scene_Victory");
+                   // NetworkManager.singleton.StopHost();
+                   // NetworkManager.singleton.StopClient();
                 }
             }
             if (Input.GetKey(KeyCode.Return))

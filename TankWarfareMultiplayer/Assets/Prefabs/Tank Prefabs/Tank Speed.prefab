@@ -123,6 +123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tank Speed
       objectReference: {fileID: 0}
+    - target: {fileID: 6501746559557966628, guid: 85908f88948c0174590909a990a61e58, type: 3}
+      propertyPath: Hits
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 6621266202141934537, guid: 85908f88948c0174590909a990a61e58, type: 3}
       propertyPath: m_Size.x
       value: 3.0755672
