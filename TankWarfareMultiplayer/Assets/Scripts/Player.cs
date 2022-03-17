@@ -9,6 +9,7 @@ public class Player : NetworkBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         if (isServer == true)
         {
             if (SceneManager.GetActiveScene().name == "Game")
@@ -18,6 +19,8 @@ public class Player : NetworkBehaviour
             }
         }
     }
+
+   
 
     [SyncVar]
     public GameObject TankPrefab;

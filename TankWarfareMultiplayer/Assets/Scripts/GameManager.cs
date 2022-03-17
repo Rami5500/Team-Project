@@ -150,16 +150,22 @@ public class GameManager : NetworkBehaviour
                 return;
             }
             matchHasFinished = true;
-            if (Round == 3)
+            Player[] players = GetAllPlayer();
+            foreach (Player player in players)
             {
-
-                Debug.Log("GAME OVER");
-                if (Input.GetKey(KeyCode.Return))
-                 {
-                    SceneManager.LoadScene("Scene_Victory");
-                   // NetworkManager.singleton.StopHost();
-                   // NetworkManager.singleton.StopClient();
+            
+                    if (player.score >= 3)
+                {
+                    Debug.Log("GAME OVER");
+                    if (Input.GetKey(KeyCode.Return))
+                    {
+                        //SceneManager.LoadScene("Scene_Victory");
+                        NetworkManager.singleton.ServerChangeScene("Scene_Victory");
+                        // NetworkManager.singleton.StopHost();
+                        // NetworkManager.singleton.StopClient();
+                    }
                 }
+                              
             }
             if (Input.GetKey(KeyCode.Return))
             {

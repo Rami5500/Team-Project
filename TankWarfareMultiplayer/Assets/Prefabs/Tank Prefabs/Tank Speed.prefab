@@ -17,11 +17,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1404570225874851604, guid: 85908f88948c0174590909a990a61e58, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.61
+      value: 13.3
       objectReference: {fileID: 0}
     - target: {fileID: 1404570225874851604, guid: 85908f88948c0174590909a990a61e58, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.73
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 1815667712671446215, guid: 85908f88948c0174590909a990a61e58, type: 3}
       propertyPath: m_RootOrder
@@ -77,11 +77,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2380104162901660687, guid: 85908f88948c0174590909a990a61e58, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.557
+      value: 3.51
       objectReference: {fileID: 0}
     - target: {fileID: 2380104162901660687, guid: 85908f88948c0174590909a990a61e58, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.954
+      value: 1.95
       objectReference: {fileID: 0}
     - target: {fileID: 2380104162901660687, guid: 85908f88948c0174590909a990a61e58, type: 3}
       propertyPath: m_LocalRotation.w
@@ -129,19 +129,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6621266202141934537, guid: 85908f88948c0174590909a990a61e58, type: 3}
       propertyPath: m_Size.x
-      value: 3.0755672
+      value: 3.1221051
       objectReference: {fileID: 0}
     - target: {fileID: 6621266202141934537, guid: 85908f88948c0174590909a990a61e58, type: 3}
       propertyPath: m_Size.y
-      value: 1.3049872
+      value: 1.3980637
       objectReference: {fileID: 0}
     - target: {fileID: 6621266202141934537, guid: 85908f88948c0174590909a990a61e58, type: 3}
       propertyPath: m_Offset.x
-      value: 1.2051609
+      value: 1.1935263
       objectReference: {fileID: 0}
     - target: {fileID: 6621266202141934537, guid: 85908f88948c0174590909a990a61e58, type: 3}
       propertyPath: m_Offset.y
-      value: 0.36147654
+      value: 0.50109076
       objectReference: {fileID: 0}
     - target: {fileID: 7325705602724748517, guid: 85908f88948c0174590909a990a61e58, type: 3}
       propertyPath: m_StaticEditorFlags

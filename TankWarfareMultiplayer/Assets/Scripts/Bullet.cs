@@ -15,13 +15,13 @@ public class Bullet : NetworkBehaviour
         }
     }
 
-  
 
 
 
+    public float armTime = 3;
     Rigidbody2D rb;
 
-    public float Radius = 1f;
+    public float Radius = 2f;
     public float Damage = 10f;
     public bool DamageFallsOff = true;
     public Tank SourceTank;
@@ -42,9 +42,11 @@ public class Bullet : NetworkBehaviour
         rb.rotation = angle;
         }
 
+     
 
-        if( isServer == true)
+        if ( isServer == true)
         {
+            armTime -= 1;
             LifeSpan -= Time.deltaTime;
             if(LifeSpan <= 0)
             {
@@ -77,7 +79,7 @@ public class Bullet : NetworkBehaviour
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        if(isServer == false)
+        if(isServer == false || armTime > 0)
         {
             return;
         }

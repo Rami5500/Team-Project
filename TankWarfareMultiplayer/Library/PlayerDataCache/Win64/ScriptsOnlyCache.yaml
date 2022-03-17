@@ -227,6 +227,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -347,13 +351,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2892}
     - Class: 114
-      Script: {instanceID: 3084}
-    - Class: 114
-      Script: {instanceID: 3658}
-    - Class: 114
       Script: {instanceID: 3794}
     - Class: 114
       Script: {instanceID: 4176}
+    - Class: 114
+      Script: {instanceID: 5846}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -547,7 +549,7 @@ ScriptsOnlyBuild:
     className: LobbyScript
   - hash:
       serializedVersion: 2
-      Hash: 1e560e406c4441146b697490f4e2c94b
+      Hash: ec6ea316843d1717179d7834297e4ebe
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: victoryMenu
@@ -757,7 +759,7 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
+      Hash: 866745e621ece65a22d838ba20771771
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Health
@@ -817,7 +819,7 @@ ScriptsOnlyBuild:
     className: GameManager
   - hash:
       serializedVersion: 2
-      Hash: 2d06329666317f30c90cf5ee60d0c24c
+      Hash: f8c36bd245fc59da19964edd6a114524
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Tank
@@ -1231,7 +1233,7 @@ ScriptsOnlyBuild:
     className: PlayerLobby
   - hash:
       serializedVersion: 2
-      Hash: a1a0adb10376bfbbcf40050c55d0244e
+      Hash: ba59c047866c3c87cc7deb51b26e4c47
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Bullet
