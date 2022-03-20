@@ -4867,7 +4867,7 @@ MonoBehaviour:
   authenticator: {fileID: 0}
   playerPrefab: {fileID: 7305828644445107205, guid: 08595b0ce0318944b953d0e128149564, type: 3}
   autoCreatePlayer: 1
-  playerSpawnMethod: 0
+  playerSpawnMethod: 1
   spawnPrefabs:
   - {fileID: 3886557910525370309, guid: fe1f08a12b5a8b54f814cf640628f5a3, type: 3}
   - {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}

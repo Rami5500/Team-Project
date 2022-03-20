@@ -52,6 +52,9 @@ public class Player : NetworkBehaviour
     [SyncVar]
     public bool readyToBegin;
 
+    [SyncVar]
+    public Transform SpawnLocation;
+
 
     [SyncVar]
     public int score;
@@ -72,8 +75,13 @@ public class Player : NetworkBehaviour
         playerNum = num;
     }
 
-  
 
+
+    
+    public void SpawnLoc(Transform Location)
+    {
+        SpawnLocation = Location;
+    }
 
 
     //[Command]
@@ -105,12 +113,17 @@ public class Player : NetworkBehaviour
         //NetworkServer.Spawn(go);
 
         //myTank = Instantiate(TankPrefab);
-      
+
+        //NetworkManager.GetStartPosition();
+        if (SpawnLocation == null)
+        {
+            SpawnLoc(NetworkManager.singleton.GetStartPosition());
+        }
         SpawnMyTank();
-        myTank = Instantiate(currentTank, new Vector2(29, 5), Quaternion.Euler(0, 0, 0));
+        myTank = Instantiate(currentTank, SpawnLocation.transform.position, Quaternion.Euler(0, 0, 0));
 
 
-
+        //myTank = Instantiate(currentTank);
         // myTank.GetComponent<Tank>().ChangePosition(new Vector3(-8, -3, 0));
 
         NetworkServer.Spawn(myTank, connectionToClient);

@@ -381,8 +381,7 @@ public class GameManager : NetworkBehaviour
         players[1].DestroyTank();
         players[0].DestroyTank();
         players[1].SpawnTank();
-
-       
+         new WaitForSeconds(2f);
         players[0].SpawnTank();
 
 
@@ -443,8 +442,8 @@ public class GameManager : NetworkBehaviour
 
 
         Tank[] tanks = GetAllTanks();
-        tanks[1].ChangePosition(new Vector3(-16, 11, 0));
-        tanks[0].ChangePosition(new Vector3(29, 5, 0));
+        //tanks[1].ChangePosition(new Vector3(-16, 11, 0));
+       // tanks[0].ChangePosition(new Vector3(29, 5, 0));
      
 
         tanks[0].tankTurn = false;

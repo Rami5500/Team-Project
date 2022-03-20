@@ -43,7 +43,9 @@ public class Tank : NetworkBehaviour
     [SyncVar]
     Vector3 serverPosition;
 
-   
+
+
+
 
 
     Vector3 serverPositionSmoothVelocity;
@@ -81,9 +83,20 @@ public class Tank : NetworkBehaviour
 
         if ( hasAuthority == false || tankTurn == false)
         {
-            transform.position = Vector3.SmoothDamp(transform.position, serverPosition,ref serverPositionSmoothVelocity , 0.25f);
+           // RpcFixPosition(transform.position);
+           // transform.position = Vector3.SmoothDamp(transform.position, serverPosition,ref serverPositionSmoothVelocity , 0.25f);
+            if(!hasAuthority)
+            {
+               // RpcFixPosition(Vector3.SmoothDamp(transform.position, serverPosition, ref serverPositionSmoothVelocity, 0.25f));
+            }
+            // RpcFixPosition(transform.position);
             //RpcFixPosition(Vector3.SmoothDamp(transform.position, serverPosition, ref serverPositionSmoothVelocity, 0.25f));
-           // ChangePosition(Vector3.SmoothDamp(transform.position, serverPosition, ref serverPositionSmoothVelocity, 0.25f));
+            // ChangePosition(Vector3.SmoothDamp(transform.position, serverPosition, ref serverPositionSmoothVelocity, 0.25f));
+            //ChangePosition(transform.position);
+
+
+            CmdUpdatePosition(Vector3.SmoothDamp(transform.position, serverPosition, ref serverPositionSmoothVelocity, 0.25f));
+            //RpcFixPosition(Vector3.SmoothDamp(transform.position, serverPosition, ref serverPositionSmoothVelocity, 0.25f));
         }
 
         Vector3 euler = transform.eulerAngles;
@@ -226,6 +239,7 @@ public class Tank : NetworkBehaviour
     }
 
 
+    [Command(requiresAuthority = false)]
     public void ChangePosition(Vector3 newPosition)
     {
         CmdUpdatePosition(newPosition);

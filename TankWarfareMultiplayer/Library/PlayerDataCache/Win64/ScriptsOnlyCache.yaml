@@ -38,7 +38,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -259,6 +258,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3084}
     - Class: 114
       Script: {instanceID: 3130}
+    - Class: 114
+      Script: {instanceID: 3194}
     - Class: 114
       Script: {instanceID: 3238}
     - Class: 114
@@ -1539,7 +1540,7 @@ ScriptsOnlyBuild:
     className: NetworkAnimator
   - hash:
       serializedVersion: 2
-      Hash: 01e582075502e4302969e0760d968ae0
+      Hash: 7dc506d8b8794e1c0d212109788b6410
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
