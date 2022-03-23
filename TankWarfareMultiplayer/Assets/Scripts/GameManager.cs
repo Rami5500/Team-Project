@@ -370,19 +370,26 @@ public class GameManager : NetworkBehaviour
          matchHasStarted = false;
          matchHasFinished = false;
          TimeLeft = 3;
-        /*
+        
          foreach (Player player in players)
          {
              player.DestroyTank();
-             player.SpawnTank();
+           //  player.SpawnTank();
          }
-        */
 
+        /*foreach (Player player in players)
+        {
+           // player.DestroyTank();
+            player.SpawnTank();
+            new WaitForSeconds(2f);
+        }
+        */
         players[1].DestroyTank();
         players[0].DestroyTank();
         players[1].SpawnTank();
-         new WaitForSeconds(2f);
+        new WaitForSeconds(4f);
         players[0].SpawnTank();
+        
 
 
 
