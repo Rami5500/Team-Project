@@ -18,6 +18,7 @@ ScriptsOnlyBuild:
     - PhaseUI
     - Player
     - PlayerLobby
+    - PlayfabManager
     - Tank
     - TerrainDestroyer
     - Water
@@ -31,6 +32,11 @@ ScriptsOnlyBuild:
     - Mirror.NetworkIdentity
     - Mirror.NetworkStartPosition
     - kcp2k.KcpTransport
+    PlayFab.dll:
+    - PlayFabSharedSettings
+    PlayFabEditorExtensions.dll:
+    - PlayFab.PfEditor.PlayFabEditor
+    - PlayFab.PfEditor.PlayFabEditorPrefsSO
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -38,6 +44,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -74,6 +81,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.InputField
     - UnityEngine.UI.Outline
     - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
     Assets/Scenes/Game.unity:
     - Class: 1
@@ -152,6 +160,59 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 1839735485
       Script: {instanceID: 0}
+    Assets/Scenes/Leader&Sent.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1474}
+    - Class: 114
+      Script: {instanceID: 1476}
+    - Class: 114
+      Script: {instanceID: 1478}
+    - Class: 114
+      Script: {instanceID: 2892}
+    - Class: 114
+      Script: {instanceID: 3084}
+    - Class: 114
+      Script: {instanceID: 3658}
+    - Class: 114
+      Script: {instanceID: 3794}
+    - Class: 114
+      Script: {instanceID: 4276}
+    - Class: 114
+      Script: {instanceID: 29498}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
     Assets/Scenes/Scene_Lobby.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -200,6 +261,61 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Scene_Login_&_Register.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1474}
+    - Class: 114
+      Script: {instanceID: 1476}
+    - Class: 114
+      Script: {instanceID: 1478}
+    - Class: 114
+      Script: {instanceID: 2892}
+    - Class: 114
+      Script: {instanceID: 3084}
+    - Class: 114
+      Script: {instanceID: 3438}
+    - Class: 114
+      Script: {instanceID: 3658}
+    - Class: 114
+      Script: {instanceID: 3794}
+    - Class: 114
+      Script: {instanceID: 4276}
+    - Class: 114
+      Script: {instanceID: 29498}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
       Script: {instanceID: 0}
     Assets/Scenes/Scene_MainMenu.unity:
     - Class: 1
@@ -298,6 +414,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6204}
     - Class: 114
       Script: {instanceID: 6576}
+    - Class: 114
+      Script: {instanceID: 29028}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -357,6 +475,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4176}
     - Class: 114
       Script: {instanceID: 5846}
+    - Class: 114
+      Script: {instanceID: 29498}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -550,7 +670,7 @@ ScriptsOnlyBuild:
     className: LobbyScript
   - hash:
       serializedVersion: 2
-      Hash: ec6ea316843d1717179d7834297e4ebe
+      Hash: fb7398767a1d9dd43462629de18fb3fc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: victoryMenu
@@ -820,7 +940,7 @@ ScriptsOnlyBuild:
     className: GameManager
   - hash:
       serializedVersion: 2
-      Hash: f8c36bd245fc59da19964edd6a114524
+      Hash: 16ce36f7c9901b177bfac846e446d748
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Tank
@@ -1228,7 +1348,7 @@ ScriptsOnlyBuild:
     className: Tank
   - hash:
       serializedVersion: 2
-      Hash: bf53f8e8be3110e186d44202bc3a70a4
+      Hash: 06e2fec9f13399519f067913c5732c2c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerLobby
@@ -1540,7 +1660,7 @@ ScriptsOnlyBuild:
     className: NetworkAnimator
   - hash:
       serializedVersion: 2
-      Hash: 7dc506d8b8794e1c0d212109788b6410
+      Hash: 5505a1c959113229316956df6df080e1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -1634,9 +1754,23 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TerrainDestroyer
+  - hash:
+      serializedVersion: 2
+      Hash: bc8d5a16cdc0bb11217587af2000e9e4
+    assemblyName: PlayFab.dll
+    namespaceName: 
+    className: PlayFabSharedSettings
+  - hash:
+      serializedVersion: 2
+      Hash: d43a7afdee8e3a98166c8d966ec5c27d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayfabManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/Scene_MainMenu.unity
+  - Assets/Scenes/Scene_Login_&_Register.unity
+  - Assets/Scenes/Leader&Sent.unity
   - Assets/Scenes/Scene_Lobby.unity
   - Assets/Scenes/Game.unity
   - Assets/Scenes/Scene_Victory.unity

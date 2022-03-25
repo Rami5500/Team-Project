@@ -41,6 +41,9 @@ public class Player : NetworkBehaviour
     public GameObject myTank;
 
 
+    public PlayerLobby myLobbyPlayer;
+
+
     public GameObject currentTank;
 
     [SyncVar]
@@ -76,8 +79,15 @@ public class Player : NetworkBehaviour
     }
 
 
+    [Command]
+    public void setLobbyPlayer(PlayerLobby lobbyPlayer)
+    {
+        myLobbyPlayer = lobbyPlayer;
+    }
 
-    
+
+
+
     public void SpawnLoc(Transform Location)
     {
         SpawnLocation = Location;
@@ -115,16 +125,16 @@ public class Player : NetworkBehaviour
         //myTank = Instantiate(TankPrefab);
 
         //NetworkManager.GetStartPosition();
-        GameObject GM = GameObject.Find("Spawn1");
-        new WaitForSeconds(4f);
+        GameObject GM;
+        //new WaitForSeconds(4f);
         //SpawnLoc(NetworkManager.singleton.GetStartPosition());
-        if (playerNum == 1)
-        {
-             GM = GameObject.Find("Spawn2");
-        }
         if (playerNum == 2)
         {
-            GM = GameObject.Find("Spawn1");
+             GM = GameObject.Find("Spawn1");
+        }
+        else
+        {
+            GM = GameObject.Find("Spawn2");
         }
         SpawnMyTank();
         //myTank = Instantiate(currentTank, SpawnLocation.transform.position, Quaternion.Euler(0, 0, 0));
@@ -188,7 +198,11 @@ public class Player : NetworkBehaviour
 
     void Update()
     {
-        
+        if (myLobbyPlayer != null)
+        {
+            myLobbyPlayer.updateScore(score);
+        }
+
         if (Input.GetKey(KeyCode.Escape))
         {
 

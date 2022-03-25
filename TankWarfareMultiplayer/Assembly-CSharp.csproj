@@ -86,6 +86,8 @@
      <Compile Include="Assets\Noble Connect\Common\TextFromFile.cs" />
      <Compile Include="Assets\Scripts\PhaseUI.cs" />
      <Compile Include="Assets\Scripts\Test Scripts\TerrainDestroyer.cs" />
+     <Compile Include="Assets\Scripts\LeaderBoard Related Things\PlayfabManager.cs" />
+     <Compile Include="Assets\LoginButtonScript.cs" />
      <None Include="Assets\platformer-pack-redux-360-assets\License.txt" />
      <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
      <None Include="Assets\platformer-pack-redux-360-assets\Spritesheets\spritesheet_complete.xml" />
@@ -842,6 +844,21 @@
     <ProjectReference Include="Mirror.Components.csproj">
       <Project>{B2797EBC-CD1E-A618-EA75-39DA4A503F0A}</Project>
       <Name>Mirror.Components</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabEditorExtensions.csproj">
+      <Project>{BB98F9AE-4B1F-E5E3-F78A-F7C79312FB97}</Project>
+      <Name>PlayFabEditorExtensions</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabSDKEditor.csproj">
+      <Project>{A0EEC1B8-0958-192A-22B5-126DA20784A1}</Project>
+      <Name>PlayFabSDKEditor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="PlayFab.csproj">
+      <Project>{1A9FEDAF-5C47-75AF-C349-6E7A9CB408D2}</Project>
+      <Name>PlayFab</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

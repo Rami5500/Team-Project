@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Mirror;
 using NobleConnect.Mirror;
+using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
@@ -170,6 +171,19 @@ public class Menu : MonoBehaviour
           
     }
     
+    public void buttonLogin()
+    {
+        SceneManager.LoadScene("Scene_Login_&_Register");
+        menuPanel.SetActive(false);
+
+    }
+
+   public void buttonLeaderboard()
+    {
+        SceneManager.LoadScene("Leader&Sent");
+        menuPanel.SetActive(false);
+    }
+
 
 
 
@@ -185,6 +199,13 @@ public class Menu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (SceneManager.GetActiveScene().name == "Scene_MainMenu")
+        {
+            menuPanel.SetActive(true);
+        }
+        else
+        {
+            menuPanel.SetActive(false);
+        }
     }
 }
