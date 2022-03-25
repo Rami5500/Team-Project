@@ -62,8 +62,8 @@
      <Compile Include="Assets\Mirror\Runtime\NetworkWriterPool.cs" />
      <Compile Include="Assets\Mirror\Runtime\InterestManagement.cs" />
      <Compile Include="Assets\Mirror\Runtime\Attributes.cs" />
-     <Compile Include="Assets\Mirror\Runtime\Empty\Cloud\InstantiateNetworkManager.cs" />
      <Compile Include="Assets\Mirror\Runtime\NetworkReader.cs" />
+     <Compile Include="Assets\Mirror\Runtime\Empty\Cloud\InstantiateNetworkManager.cs" />
      <Compile Include="Assets\Mirror\Runtime\NetworkConnection.cs" />
      <Compile Include="Assets\Mirror\Runtime\Empty\Cloud\IUnityEqualCheck.cs" />
      <Compile Include="Assets\Mirror\Runtime\Extensions.cs" />
@@ -79,8 +79,8 @@
      <Compile Include="Assets\Mirror\Runtime\NetworkStartPosition.cs" />
      <Compile Include="Assets\Mirror\Runtime\NetworkAuthenticator.cs" />
      <Compile Include="Assets\Mirror\Runtime\Empty\Logging\EditorLogSettingsLoader.cs" />
-     <Compile Include="Assets\Mirror\Runtime\Transport\Transport.cs" />
      <Compile Include="Assets\Mirror\Runtime\SyncList.cs" />
+     <Compile Include="Assets\Mirror\Runtime\Transport\Transport.cs" />
      <Compile Include="Assets\Mirror\Runtime\Empty\Cloud\IRequestCreator.cs" />
      <Compile Include="Assets\Mirror\Runtime\Empty\Cloud\JsonStructs.cs" />
      <Compile Include="Assets\Mirror\Runtime\NetworkMessage.cs" />
@@ -98,8 +98,8 @@
      <Compile Include="Assets\Mirror\Runtime\Empty\Cloud\NetworkManagerListServer.cs" />
      <Compile Include="Assets\Mirror\Runtime\Empty\Cloud\ServerListManager.cs" />
      <Compile Include="Assets\Mirror\Runtime\Messages.cs" />
-     <Compile Include="Assets\Mirror\Runtime\Empty\ClientScene.cs" />
      <Compile Include="Assets\Mirror\Runtime\Empty\Cloud\BaseApi.cs" />
+     <Compile Include="Assets\Mirror\Runtime\Empty\ClientScene.cs" />
      <Compile Include="Assets\Mirror\Runtime\Empty\Cloud\ApiUpdater.cs" />
      <Compile Include="Assets\Mirror\Runtime\Empty\Cloud\Logger.cs" />
      <Compile Include="Assets\Mirror\Runtime\Empty\Cloud\ListServerServerApi.cs" />

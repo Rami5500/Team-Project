@@ -76,18 +76,18 @@
      <Compile Include="Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Scripts\ExplosionScript.cs" />
      <Compile Include="Assets\Scripts\HealthUI.cs" />
+     <Compile Include="Assets\Scripts\LeaderBoard Related Things\PlayfabManager.cs" />
      <Compile Include="Assets\Noble Connect\Common\Config.cs" />
      <Compile Include="Assets\Noble Connect\Mirror\Internal\NobleRoomManager.cs" />
      <Compile Include="Assets\Noble Connect\Mirror\Examples\Lobby\ExampleMirrorNobleNetworkLobbyManager.cs" />
      <Compile Include="Assets\Scripts\playerScoreTxt.cs" />
      <Compile Include="Assets\Scripts\CountdownTimerUI.cs" />
+     <Compile Include="Assets\LoginButtonScript.cs" />
      <Compile Include="Assets\Noble Connect\Mirror\Internal\NobleNetworkManager.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Noble Connect\Common\TextFromFile.cs" />
      <Compile Include="Assets\Scripts\PhaseUI.cs" />
      <Compile Include="Assets\Scripts\Test Scripts\TerrainDestroyer.cs" />
-     <Compile Include="Assets\Scripts\LeaderBoard Related Things\PlayfabManager.cs" />
-     <Compile Include="Assets\LoginButtonScript.cs" />
      <None Include="Assets\platformer-pack-redux-360-assets\License.txt" />
      <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
      <None Include="Assets\platformer-pack-redux-360-assets\Spritesheets\spritesheet_complete.xml" />
@@ -791,6 +791,11 @@
       <Name>Unity.2D.Tilemap.Extras</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="PlayFabSDKEditor.csproj">
+      <Project>{A0EEC1B8-0958-192A-22B5-126DA20784A1}</Project>
+      <Name>PlayFabSDKEditor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="Mirror.csproj">
       <Project>{D277FB25-8A91-3E92-4079-934E92919E04}</Project>
       <Name>Mirror</Name>
@@ -801,9 +806,19 @@
       <Name>kcp2k</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="PlayFabEditorExtensions.csproj">
+      <Project>{BB98F9AE-4B1F-E5E3-F78A-F7C79312FB97}</Project>
+      <Name>PlayFabEditorExtensions</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="Mirror.Examples.csproj">
       <Project>{0F8BBB39-D1F0-11CA-D835-7FC3C9784AB6}</Project>
       <Name>Mirror.Examples</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="PlayFab.csproj">
+      <Project>{1A9FEDAF-5C47-75AF-C349-6E7A9CB408D2}</Project>
+      <Name>PlayFab</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
@@ -844,21 +859,6 @@
     <ProjectReference Include="Mirror.Components.csproj">
       <Project>{B2797EBC-CD1E-A618-EA75-39DA4A503F0A}</Project>
       <Name>Mirror.Components</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="PlayFabEditorExtensions.csproj">
-      <Project>{BB98F9AE-4B1F-E5E3-F78A-F7C79312FB97}</Project>
-      <Name>PlayFabEditorExtensions</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="PlayFabSDKEditor.csproj">
-      <Project>{A0EEC1B8-0958-192A-22B5-126DA20784A1}</Project>
-      <Name>PlayFabSDKEditor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="PlayFab.csproj">
-      <Project>{1A9FEDAF-5C47-75AF-C349-6E7A9CB408D2}</Project>
-      <Name>PlayFab</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
