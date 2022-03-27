@@ -39,9 +39,6 @@ public class victoryMenu : NetworkBehaviour
     void changeVictory()
     {
         PlayerLobby[] players = GameObject.FindObjectsOfType<PlayerLobby>();
-
-        
-
             foreach (PlayerLobby player in players)
             {
 
@@ -58,38 +55,22 @@ public class victoryMenu : NetworkBehaviour
                         }
                     // win.SetActive(true);
                     // lose.SetActive(false);
-
-                    text.text = "You won";
+                          text.text = "You won";
                           return;
                       }
                       else
                       {
-                          //win.SetActive(false);
-                          //lose.SetActive(true);
-                          text.text = "You lost";
+                        if (hasUpdatedScore == false)
+                        {
+                            myPlayFabManger.SendLeaderBoard(-50);
+                            hasUpdatedScore = true;
+                        }
+                    //win.SetActive(false);
+                    //lose.SetActive(true);
+                    text.text = "You lost";
                       }
 
-                  }
-                
-                /*
-                if (isServer)
-                {
-                   
-                        if (player.score >= 3)
-                        {
-                            text.text = "You won";
-                            return;
-                        }
-                        else
-                        {
-                            text.text = "You lost";
-                        }
-                    
-
-
-                }
-                */
-               
+                  }                         
             }
         
         
