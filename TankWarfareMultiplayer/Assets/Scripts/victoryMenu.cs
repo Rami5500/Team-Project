@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using PlayFab;
+using PlayFab.ClientModels;
 using Mirror;
 
 public class victoryMenu : NetworkBehaviour
@@ -39,7 +41,9 @@ public class victoryMenu : NetworkBehaviour
     void changeVictory()
     {
         PlayerLobby[] players = GameObject.FindObjectsOfType<PlayerLobby>();
-            foreach (PlayerLobby player in players)
+        //PlayFabClient[] playersfabs;// = GameObject.FindObjectsOfType<PlayFabClient>();
+        
+        foreach (PlayerLobby player in players)
             {
 
                  if (player.hasAuthority) 
@@ -50,8 +54,11 @@ public class victoryMenu : NetworkBehaviour
 
                         if (hasUpdatedScore == false)
                         {
-                            myPlayFabManger.SendLeaderBoard(100);
-                            hasUpdatedScore = true;
+                            if (myPlayFabManger.isLoggedIn())
+                            {
+                                myPlayFabManger.SendLeaderBoard(100);
+                                hasUpdatedScore = true;
+                            }
                         }
                     // win.SetActive(true);
                     // lose.SetActive(false);
@@ -60,11 +67,16 @@ public class victoryMenu : NetworkBehaviour
                       }
                       else
                       {
-                        if (hasUpdatedScore == false)
+                    if (hasUpdatedScore == false)
+                    {
+                        
+                         if (myPlayFabManger.isLoggedIn())
                         {
                             myPlayFabManger.SendLeaderBoard(-50);
                             hasUpdatedScore = true;
                         }
+                    }
+                    
                     //win.SetActive(false);
                     //lose.SetActive(true);
                     text.text = "You lost";

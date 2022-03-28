@@ -272,7 +272,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You Won
+  m_Text: Error
 --- !u!114 &583558558
 MonoBehaviour:
   m_ObjectHideFlags: 0

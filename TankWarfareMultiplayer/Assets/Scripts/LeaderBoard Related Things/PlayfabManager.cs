@@ -82,7 +82,8 @@ public class PlayfabManager : MonoBehaviour
         }
         else
         {
-            leaderboardWindow.SetActive(true);
+            //leaderboardWindow.SetActive(true);
+            SceneManager.LoadScene("Leader&Sent");
         }
     }
 
@@ -217,6 +218,11 @@ public class PlayfabManager : MonoBehaviour
     public void goToMainMenu()
     {
         SceneManager.LoadScene("Scene_MainMenu");
+    }
+
+    public bool isLoggedIn()
+    {
+        return PlayFabClientAPI.IsClientLoggedIn();
     }
 }
 
