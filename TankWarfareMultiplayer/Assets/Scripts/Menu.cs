@@ -10,7 +10,12 @@ public class Menu : MonoBehaviour
 {
 
     public NobleNetworkManager networkManager;
+    public PlayfabManager myPlayfabManager;
     public GameObject menuPanel;
+
+    public GameObject leaderBoardButton;
+    public GameObject logoutButton;
+    public GameObject loginButton;
 
 
     // The relay ip and port from the GUI text box
@@ -202,10 +207,24 @@ public class Menu : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "Scene_MainMenu")
         {
             menuPanel.SetActive(true);
+            if (myPlayfabManager.isLoggedIn())
+            {
+                loginButton.SetActive(false);
+                leaderBoardButton.SetActive(true);
+                logoutButton.SetActive(true);
+            }
+            else
+            {
+                leaderBoardButton.SetActive(false);
+                logoutButton.SetActive(false);
+                loginButton.SetActive(true);
+            }
         }
         else
         {
             menuPanel.SetActive(false);
         }
+
+
     }
 }

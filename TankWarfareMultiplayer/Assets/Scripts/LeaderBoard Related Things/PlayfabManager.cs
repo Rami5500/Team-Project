@@ -14,6 +14,16 @@ public class PlayfabManager : MonoBehaviour
     public InputField emailInput;
     public InputField passwordInput;
 
+    public GameObject userNameText;
+
+    public GameObject loginButton;
+    public GameObject registerButton;
+    public GameObject resetPasswordButton;
+
+    public GameObject switchLoginButton;
+    public GameObject switchRegisterButton;
+
+
     public GameObject logNregWindow;
     public GameObject leaderboardWindow;
 
@@ -224,6 +234,56 @@ public class PlayfabManager : MonoBehaviour
     {
         return PlayFabClientAPI.IsClientLoggedIn();
     }
+
+
+    public void Logout()
+    {
+        PlayFabClientAPI.ForgetAllCredentials();
+    }
+
+    public string getName()
+    {
+        /*rtPlayFabClientAPI.GetAccountInfo(new GetAccountInfoRequest { Username = "theuser" },
+    result =>
+    {
+        //Handle AccountInfo
+        Debug.Log(result.AccountInfo.PlayFabId);
+   
+    },
+    error =>
+    {
+        Debug.LogError(error.GenerateErrorReport());
+    });
+        */
+        return "test";
+    }
+
+
+
+    public void showRegister()
+    {
+        userNameText.SetActive(false);
+        loginButton.SetActive(false);
+        registerButton.SetActive(true);
+        resetPasswordButton.SetActive(false);
+        switchLoginButton.SetActive(true);
+        switchRegisterButton.SetActive(false);
+  
+
+    }
+
+    public void showLogin()
+    {
+        userNameText.SetActive(true);
+        loginButton.SetActive(true);
+        registerButton.SetActive(false);
+        resetPasswordButton.SetActive(true);
+        switchLoginButton.SetActive(false);
+        switchRegisterButton.SetActive(true);
+
+    }
+
+    
 }
 
 
