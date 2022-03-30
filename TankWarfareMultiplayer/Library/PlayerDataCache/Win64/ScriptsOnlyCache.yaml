@@ -44,6 +44,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -945,7 +946,7 @@ ScriptsOnlyBuild:
     className: GameManager
   - hash:
       serializedVersion: 2
-      Hash: 898f045ce93969c6f9ab359e0e86d624
+      Hash: de7a16787763ee9058c79f095a510852
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Tank
@@ -1365,7 +1366,7 @@ ScriptsOnlyBuild:
     className: PlayerLobby
   - hash:
       serializedVersion: 2
-      Hash: ba59c047866c3c87cc7deb51b26e4c47
+      Hash: 9604da11ac5b31617d129de31407da9b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Bullet

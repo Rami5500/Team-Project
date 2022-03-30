@@ -361,6 +361,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7043127038313906056}
     - target: {fileID: 3019008561831474865, guid: 47e65c9ed3145be468dc3c64c5c3fe65, type: 3}
+      propertyPath: firingSound
+      value: 
+      objectReference: {fileID: 7191396298803844930}
+    - target: {fileID: 3019008561831474865, guid: 47e65c9ed3145be468dc3c64c5c3fe65, type: 3}
       propertyPath: tankMovementSound
       value: 
       objectReference: {fileID: 649406801845283185}
@@ -498,6 +502,11 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 8661908180938894319, guid: 47e65c9ed3145be468dc3c64c5c3fe65, type: 3}
   m_PrefabInstance: {fileID: 4397743539928135620}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8835661043957351435 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5159294026519327695, guid: 47e65c9ed3145be468dc3c64c5c3fe65, type: 3}
+  m_PrefabInstance: {fileID: 4397743539928135620}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2380104162901660687 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2017674563009242059, guid: 47e65c9ed3145be468dc3c64c5c3fe65, type: 3}
@@ -508,6 +517,102 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 920137667869804688, guid: 47e65c9ed3145be468dc3c64c5c3fe65, type: 3}
   m_PrefabInstance: {fileID: 4397743539928135620}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &649406801845283185
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5102811160930846103}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a7c968c675a35f5409ed85688ea18585, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &1020828922687262351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -584,17 +689,17 @@ MonoBehaviour:
   debugLog: 0
   statisticsGUI: 0
   statisticsLog: 0
---- !u!82 &649406801845283185
+--- !u!82 &7191396298803844930
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5102811160930846103}
+  m_GameObject: {fileID: 8835661043957351435}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a7c968c675a35f5409ed85688ea18585, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bf1ab4a432c948542b2e66883ef3f6f7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

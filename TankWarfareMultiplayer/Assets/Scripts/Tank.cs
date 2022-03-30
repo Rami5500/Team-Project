@@ -29,6 +29,7 @@ public class Tank : NetworkBehaviour
     public Transform BulletSpawnPoint;
     public GameObject aimArrow;
     public AudioSource tankMovementSound;
+    public AudioSource firingSound;
 
 
     public GameObject activeArrow;
@@ -89,6 +90,8 @@ public class Tank : NetworkBehaviour
         {
           
         }
+
+        tankMovementSound.Pause();
 
         if ( hasAuthority && tankTurn == true)
         {
@@ -168,17 +171,21 @@ public class Tank : NetworkBehaviour
             return;
         }
 
+        // tankMovementSound.Pause();
+        tankMovementSound.UnPause();
 
 
+        CmdMovementSound();
+        RpcMovementSound();
         float movement = Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
         float jumpVelocity = 1f;
 
         //float Jump = Input.GetAxis("Horizontal") * jumpVelocity * Time.deltaTime;
 
-        tankMovementSound.Play(4);
+   
         if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
         {
-            
+           
             movement *= 0.1f;
         }
         float jump = Input.GetAxis("Vertical") * Speed * Time.deltaTime; ;
@@ -262,8 +269,11 @@ public class Tank : NetworkBehaviour
         {
             return;
         }
+       // firingSound.Play();
         Vector2 velocity = new Vector2(turretPower * Mathf.Cos(turretAngle * Mathf.Deg2Rad), turretPower * Mathf.Sin(turretAngle * Mathf.Deg2Rad));
         aimArrow.SetActive(false);
+        firingSound.Play();
+        RpcBulletSound();
         CmdFireBullet(BulletSpawnPoint.position, velocity);
     }
 
@@ -419,7 +429,7 @@ public class Tank : NetworkBehaviour
 
         Rigidbody2D rb = go.GetComponent<Rigidbody2D>();        
         rb.velocity = velocity;
-       
+        firingSound.Play();
 
         NetworkServer.Spawn(go);
     }
@@ -432,6 +442,7 @@ public class Tank : NetworkBehaviour
         {
             //SHOULD NOT MOVE
         }
+     
         serverPosition = newPosition;
     }
 
@@ -455,6 +466,25 @@ public class Tank : NetworkBehaviour
 
 
     }
+
+    [Command(requiresAuthority = false)]
+    void CmdMovementSound()
+    {
+        tankMovementSound.UnPause();
+    }
+
+    [ClientRpc]
+    void RpcBulletSound()
+    {
+        firingSound.Play();
+    }
+
+    [ClientRpc]
+    void RpcMovementSound()
+    {
+        tankMovementSound.UnPause();
+    }
+
 
 
 

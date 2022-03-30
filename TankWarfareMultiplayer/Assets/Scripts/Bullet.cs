@@ -30,6 +30,9 @@ public class Bullet : NetworkBehaviour
 
     public bool RotatesWithVelocity = true;
 
+    public AudioSource expolsionSound;
+
+
     public GameObject ExplosionPrefab;
 
 
@@ -134,6 +137,7 @@ public class Bullet : NetworkBehaviour
 
       void Die()
     {
+      
         // Should Die() be the thing that triggers the damage explosion?
         // i.e. if we time-out in midair (or during bouncing)
 
@@ -141,8 +145,8 @@ public class Bullet : NetworkBehaviour
         {
             GameManager.Instance().UnregisterResolutionObject(gameObject);
         }
-        
 
+       
         // Remove ourselves from the game
         Destroy(gameObject);
 
