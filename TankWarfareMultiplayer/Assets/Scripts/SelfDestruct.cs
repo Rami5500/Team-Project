@@ -18,7 +18,7 @@ public class SelfDestruct : MonoBehaviour
         Timer -= Time.deltaTime;
         if( Timer <= 0)
         {
-            Destroy(gameObject);
+            Destroy(gameObject);  //Destroy what ever this script it attached to
         }
     }
 }

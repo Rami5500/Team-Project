@@ -95,28 +95,7 @@ public class Menu : MonoBehaviour
     {
         if (!networkManager.isNetworkActive)
         { 
-            /*
-            // Text boxes for entering host's address
-            GUI.Label(new Rect(10, 10, 150, 22), "Host IP:");
-            hostIP = GUI.TextField(new Rect(170, 10, 420, 22), hostIP);
-            GUI.Label(new Rect(10, 37, 150, 22), "Host Port:");
-            hostPort = GUI.TextField(new Rect(170, 37, 160, 22), hostPort);
-
-            // Connect button
-            if (GUI.Button(new Rect(115, 81, 120, 30), "Connect"))
-            {
-                networkManager.networkAddress = hostIP;
-                networkManager.networkPort = ushort.Parse(hostPort);
-                networkManager.StartClient();
-                menuPanel.SetActive(false);
-            }
-            
-            // Back button
-            if (GUI.Button(new Rect(10, 81, 95, 30), "Back"))
-            {
-                isClient = false;
-            }
-            */
+      
             
         }
         else if (networkManager.client != null)
@@ -146,25 +125,7 @@ public class Menu : MonoBehaviour
     {
         if (!isHost && !isClient)
         {
-            // Host button
-            /*if (GUI.Button(new Rect(10, 10, 100, 30), "Host"))
-            {
-                isHost = true;
-                isClient = false;
-
-                networkManager.StartHost();
-            }
-            */
-            
-            // Client button
-            /*
-            if (GUI.Button(new Rect(10, 50, 100, 30), "Client"))
-            {
-                networkManager.InitClient();
-                isHost = false;
-                isClient = true;
-            }
-            */
+         
         }
         else
 

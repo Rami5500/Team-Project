@@ -36,7 +36,7 @@ public class Water : MonoBehaviour
             {
                 Debug.Log(collider.attachedRigidbody.gameObject.name);
 
-                h.CmdChangeHealth(-10000000);
+                h.CmdChangeHealth(-10000000); //Kills whatever falls into it
 
             }
         }

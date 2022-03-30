@@ -31,10 +31,6 @@ public class HealthUI : NetworkBehaviour
         if (health == null)
         {
 
-           /* if (Tank.LocalTank != null)
-            { 
-               health = Tank.LocalTank.GetComponentInParent<Health>();
-           }*/
 
             if (GetComponentInParent<Tank>() != null)
             {

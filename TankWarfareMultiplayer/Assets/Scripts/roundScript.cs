@@ -30,6 +30,6 @@ public class roundScript : MonoBehaviour
 
 
         
-        text.text = gameManager.Round.ToString(); 
+        text.text = gameManager.Round.ToString();   //Updates the UI round 
     }
 }

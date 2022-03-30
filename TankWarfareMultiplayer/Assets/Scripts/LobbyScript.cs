@@ -46,12 +46,7 @@ public class LobbyScript : NetworkBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       // myPlayer = Instantiate(PlayerPrefab);
-
-       // if (SceneManager.GetActiveScene().name == "Scene_Lobby")
-       // {
-        //    NetworkServer.Spawn(myPlayer, connectionToClient);
-       // }
+      
     }
 
     void SetCurrentTank(GameObject currentTank)
@@ -92,7 +87,7 @@ public class LobbyScript : NetworkBehaviour
     void Update()
     {
         if(isServer)
-        {
+        { //Shows the different maps if you are host
             Map1.SetActive(true);
             Map2.SetActive(true);
             Map3.SetActive(true);
@@ -141,17 +136,11 @@ public class LobbyScript : NetworkBehaviour
 
 
 
-    //[Command(requiresAuthority = false)]
-    //[Server]
-    //  [Command(requiresAuthority = false)]
-    //[Server]
-    //[Command]
-    void changeTank(int i)
+
+    void changeTank(int i) //changes user tank
     {
        PlayerLobby[] Players = GameObject.FindObjectsOfType<PlayerLobby>();
-        //myTank = Instantiate(TankPrefab);
-        //myTank = TankPrefab;
-      // Debug.Log(myTank);
+      
         foreach (PlayerLobby player in Players)
         {
             if (player.hasAuthority)
@@ -162,12 +151,10 @@ public class LobbyScript : NetworkBehaviour
         }
     }
 
-     void changeMap(int i)
+     void changeMap(int i) //changes the map
     {
         PlayerLobby[] Players = GameObject.FindObjectsOfType<PlayerLobby>();
-        //myTank = Instantiate(TankPrefab);
-        //myTank = TankPrefab;
-        // Debug.Log(myTank);
+
         foreach (PlayerLobby player in Players)
         {
             if (player.hasAuthority)

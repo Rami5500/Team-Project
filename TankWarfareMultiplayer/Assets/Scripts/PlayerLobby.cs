@@ -54,8 +54,8 @@ public class PlayerLobby : NetworkBehaviour
                 }
 
             }
-           
-            if (!hasSpawned)
+            
+            if (!hasSpawned)  //spawns the tank if they havent already
             {
                 if (myPlayer != null)
                 {
@@ -68,8 +68,9 @@ public class PlayerLobby : NetworkBehaviour
                         myPlayer.setPlayer(1);
                     }
                     myPlayer.setLobbyPlayer(this);
+                    myPlayer.ChangeMyTank(tankNum); //change tank to selected tank
                     myPlayer.ChangeMyTank(tankNum);
-                    myPlayer.ChangeMyMap(mapNum);
+                    myPlayer.ChangeMyMap(mapNum); //changes the map to selected map
                     new WaitForSeconds(10f);
                     myPlayer.SpawnTank();
                     hasSpawned = true;
@@ -102,9 +103,7 @@ public class PlayerLobby : NetworkBehaviour
 
 
 
-    //[Server]
-    // [Command(requiresAuthority = false)]
-    // [Server]
+ 
     [Command(requiresAuthority = false)]
     public void ChangeTank( int i)
     {

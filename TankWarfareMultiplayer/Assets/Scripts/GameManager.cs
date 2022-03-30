@@ -45,7 +45,11 @@ public class GameManager : NetworkBehaviour
 
     //public static GameManager Instance;
 
-    public enum TURNSTATE { MOVE, SHOOT, RESOLVE}
+    public enum TURNSTATE { MOVE, SHOOT, RESOLVE } //Defines the different turnstates 
+    //move when a tank can move
+    //Shoot when a tank can aim
+    //resolve when the bullet is spawned
+
 
     [SyncVar]
     TURNSTATE _TurnState;
@@ -159,41 +163,21 @@ public class GameManager : NetworkBehaviour
             foreach (Player player in players)
             {
             
-                    if (player.score >= 3)
+                    if (player.score >= 3) //when a player has won
                 {
                     Debug.Log("GAME OVER");
-                    if (Input.GetKey(KeyCode.Return))
-                    {
-                        //SceneManager.LoadScene("Scene_Victory");
+                 
+            
                         NetworkManager.singleton.ServerChangeScene("Scene_Victory");
-                        // NetworkManager.singleton.StopHost();
-                        // NetworkManager.singleton.StopClient();
-                    }
+       
+                   
                 }
                               
             }
+            ResetGame(); //reset the game -- start a new round
             if (Input.GetKey(KeyCode.Return))
             {
-                /*  Debug.Log("New Game");
-                  matchHasStarted = false;
-                  TimeLeft = 3;
-                 // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-                 if(isLocalPlayer & isServer)
-                  {
-                      NetworkManager.singleton.StopHost();
-                  }
-                 else
-                  {
-                      NetworkManager.singleton.StopHost();
-                      NetworkManager.singleton.StopClient();
-                  }
-                
-                if (matchHasStarted == false)
-                {
-                    return;
-                }
-                matchHasFinshed = true;
-                */
+            
                 Debug.Log("New Game");
                 ResetGame();
             }
@@ -254,11 +238,6 @@ public class GameManager : NetworkBehaviour
         }
 
 
-        /* if ((TurnState != TURNSTATE.RESOLVE && (TimeLeft <= 0 || IsPhaseLocked())) /* TurnState == TURNSTATE.RESOLVE && ResolvePhaseIsCompleted()  )
-         {
-             AdvanceTurnPhase();
-         }
-         */
     }
 
     static public GameManager Instance()
@@ -277,7 +256,7 @@ public class GameManager : NetworkBehaviour
     }
 
 
-    public bool IsProcessingEvent()
+    public bool IsProcessingEvent()  //checks if an event is being processed
     {
         if (currentEvent == null)
         {
@@ -318,7 +297,7 @@ public class GameManager : NetworkBehaviour
     }
 
 
-
+    //resolves and complete all the animation/ bullet firing
     bool ProcessResolvePhase()
     {
 
@@ -358,14 +337,12 @@ public class GameManager : NetworkBehaviour
 
     public void ResetGame()
     {
-        //Application.LoadLevel(Application.loadedLevel);
-        // SceneManager.LoadScene("Game");
-        //Destroy(gameObject);
+
         Round += 1;
 
         Player[] players = GetAllPlayer();
-        // terrain.GetComponent<TerrainDestroyer>().RestartMap();
-        Destroy(myMap);
+
+        Destroy(myMap); //destroy the current map and spawns a new one so the terrain is reset
         loadMap();
       
         Tank[] tanks = GetAllTanks();
@@ -377,22 +354,15 @@ public class GameManager : NetworkBehaviour
          matchHasFinished = false;
          TimeLeft = 3;
         
-         foreach (Player player in players)
-         {
+         foreach (Player player in players) //destroy all remaining tanks
+        {
              player.DestroyTank();
-           //  player.SpawnTank();
+       
          }
 
-        /*foreach (Player player in players)
-        {
-           // player.DestroyTank();
-            player.SpawnTank();
-            new WaitForSeconds(2f);
-        }
-        */
         players[1].DestroyTank();
         players[0].DestroyTank();
-        players[1].SpawnTank();
+        players[1].SpawnTank();  //spawn the tanks back in
         new WaitForSeconds(4f);
         players[0].SpawnTank();
         scoreAdded = false; ;
@@ -405,7 +375,7 @@ public class GameManager : NetworkBehaviour
     }
 
 
-    public void AddScore()
+    public void AddScore() //increase the player score
     {
         Player[] players = GetAllPlayer();
         foreach (Player player in players)
@@ -438,33 +408,19 @@ public class GameManager : NetworkBehaviour
         matchHasStarted = true;
         TurnNumber = 0;
      
-        //tanks[0].transform.position= new Vector3(-16, 9, 0); 
-        // tanks[1].transform.position = new Vector3(29, 4, 0);
+
      
         Player[] players = GetAllPlayer();
-        //players[0].setPlayer(1);
-        //players[1].setPlayer(2);
-
-        /*foreach (Player player in players)
-         {
-
-             player.SpawnTank();
-         }
-        */
+      
         Debug.Log("IF sTATEMENT");
-       // currentMap = floatMap;
-      //  players[1].SpawnTank();
-      //  new WaitForSeconds(4f);
-      //  players[0].SpawnTank();
-
+    
 
         Tank[] tanks = GetAllTanks();
-        //tanks[1].ChangePosition(new Vector3(-16, 11, 0));
-       // tanks[0].ChangePosition(new Vector3(29, 5, 0));
+
      
 
-        tanks[0].tankTurn = false;
-        
+        tanks[0].tankTurn = false; //sets the tanks turn
+
         tanks[1].tankTurn = true;
         
 
@@ -499,7 +455,7 @@ public class GameManager : NetworkBehaviour
 
     void AdvanceTurnPhase()
     {
-        switch (TurnState)
+        switch (TurnState) //switchs based on the turnstate
         {
             case TURNSTATE.MOVE: 
                 TurnState = TURNSTATE.SHOOT;
@@ -574,11 +530,7 @@ public class GameManager : NetworkBehaviour
 
 
 
-    // [Server]
-
-    //[Command(requiresAuthority = false)]
-    //[ClientRpc]
-    //   [ClientRpc]
+ 
     [Server]
     void loadMap()
     {

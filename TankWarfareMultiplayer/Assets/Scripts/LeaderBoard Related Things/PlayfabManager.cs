@@ -36,6 +36,8 @@ public class PlayfabManager : MonoBehaviour
         //Login();
     }
 
+
+    //Register an Account
     public void RegisterButton()
     {
         if (passwordInput.text.Length < 6)
@@ -53,15 +55,16 @@ public class PlayfabManager : MonoBehaviour
         PlayFabClientAPI.RegisterPlayFabUser(request, OnRegisterSuccess, OnError);
     }
 
+    //Move to the leaderboard scene once registered
     void OnRegisterSuccess(RegisterPlayFabUserResult result)
     {
-        SendLeaderBoard(5);
+        //SendLeaderBoard(5);
         messageText.text = "Registered and logged in!";
-        //logNregWindow.SetActive(false);
-        //leaderboardWindow.SetActive(true);
+  
         SceneManager.LoadScene("Leader&Sent");
     }
 
+    //Login into an account if already has one
     public void LoginButton()
     {
         var request = new LoginWithEmailAddressRequest
@@ -76,6 +79,8 @@ public class PlayfabManager : MonoBehaviour
         PlayFabClientAPI.LoginWithEmailAddress(request, OnLoginSuccess, OnError);
     }
 
+
+    //Move to leaderboard scene once login in
     void OnLoginSuccess(LoginResult result)
     {
         messageText.text = "Logged in!";
@@ -97,6 +102,8 @@ public class PlayfabManager : MonoBehaviour
         }
     }
 
+
+    //reset user password when button is pressed
     public void ResetPasswordButton()
     {
         var request = new SendAccountRecoveryEmailRequest
@@ -112,6 +119,8 @@ public class PlayfabManager : MonoBehaviour
         messageText.text = "Password reset mail sent!";
     }
 
+
+    //displays the leaderboard
     void OnLeaderBoardGet(GetLeaderboardResult result)
     {
         foreach (Transform item in rowsParent)
@@ -144,18 +153,9 @@ public class PlayfabManager : MonoBehaviour
         Debug.Log("Updated display name!");
     }
 
-    
-    /*
-    void Login()
-    {
-        var request = new LoginWithCustomIDRequest
-        {
-            CustomId = SystemInfo.deviceUniqueIdentifier,
-            CreateAccount = true
-        };
-        //PlayFabClientAPI.LoginWithCustomID(request, OnSuccess, OnError);
-    }
-    */
+
+
+    //use to test sending data to the leaderboard
     public void LeaderBoardTest()
     {
         SendLeaderBoard(50);
@@ -167,13 +167,7 @@ public class PlayfabManager : MonoBehaviour
     {
         Debug.Log("Successful login/account create!");
     }
-    /* old one
-    void OnError(PlayFabError error)
-    {
-        Debug.Log("Error while logging in/creating account!");
-        Debug.Log(error.GenerateErrorReport());
-    }
-    */
+   
 
     public void SendLeaderBoard(int score)
     {
@@ -195,8 +189,9 @@ public class PlayfabManager : MonoBehaviour
     {
         Debug.Log("Successful LeaderBoard Sent");
     }
-    
 
+
+    //Gets the leaderboard data from the database
     public void GetLeaderBoard()
     {
         var request = new GetLeaderboardRequest
@@ -208,15 +203,7 @@ public class PlayfabManager : MonoBehaviour
         PlayFabClientAPI.GetLeaderboard(request, OnLeaderBoardGet, OnError);
     }
 
-    /*
-    void OnLeaderBoardGet(GetLeaderboardResult result)
-    {
-        foreach (var item in result.Leaderboard)
-        {
-            Debug.Log(item.Position + " " + item.PlayFabId + " " + item.StatValue);
-        }
-    }
-    */
+  
     
 
     void OnError(PlayFabError error)
@@ -225,11 +212,13 @@ public class PlayfabManager : MonoBehaviour
         Debug.Log(error.GenerateErrorReport());
     }
 
+    //go back to main menu
     public void goToMainMenu()
     {
         SceneManager.LoadScene("Scene_MainMenu");
     }
 
+    //checks if user is logged in.
     public bool isLoggedIn()
     {
         return PlayFabClientAPI.IsClientLoggedIn();
@@ -243,23 +232,13 @@ public class PlayfabManager : MonoBehaviour
 
     public string getName()
     {
-        /*rtPlayFabClientAPI.GetAccountInfo(new GetAccountInfoRequest { Username = "theuser" },
-    result =>
-    {
-        //Handle AccountInfo
-        Debug.Log(result.AccountInfo.PlayFabId);
-   
-    },
-    error =>
-    {
-        Debug.LogError(error.GenerateErrorReport());
-    });
-        */
+     
         return "test";
     }
 
 
 
+    //change to register menu
     public void showRegister()
     {
         userNameText.SetActive(false);
@@ -271,7 +250,7 @@ public class PlayfabManager : MonoBehaviour
   
 
     }
-
+    //change to login menu
     public void showLogin()
     {
         userNameText.SetActive(true);
@@ -290,78 +269,3 @@ public class PlayfabManager : MonoBehaviour
 
 
 
-
-
-/*
-public class PlayfabManager : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        Login();
-    }
-
-    // Update is called once per frame
-    void Login()
-    {
-        var request = new LoginWithCustomIDRequest
-        {
-            CustomId = SystemInfo.deviceUniqueIdentifier,
-            CreateAccount = true
-        };
-        PlayFabClientAPI.LoginWithCustomID(request, OnSuccess, OnError);
-    }
-
-    void OnSuccess(LoginResult result)
-    {
-        Debug.Log("Successful login/account create!");
-    }
-
-    void OnError(PlayFabError error)
-    {
-        Debug.Log("Error while logging in/creating account!");
-        Debug.Log(error.GenerateErrorReport());
-    }
-
-    public void SendLeaderBoard(int score)
-    {
-        var request = new UpdatePlayerStatisticsRequest
-        {
-            Statistics = new List<StatisticUpdate>
-            {
-                new StatisticUpdate
-                {
-                    StatisticName = "TankWarfare LeaderBoard",
-                    Value = score
-                }
-            }
-        };
-        PlayFabClientAPI.UpdatePlayerStatistics(request, OnLeaderBoardUpdate, OnError);
-    }
-
-    void OnLeaderBoardUpdate(UpdatePlayerStatisticsResult result)
-    {
-        Debug.Log("Successful LeaderBoard Sent");
-    }
-
-    public void GetLeaderBoard()
-    {
-        var request = new GetLeaderboardRequest
-        {
-            StatisticName = "TankWarfare LeaderBoard",
-            StartPosition = 0,
-            MaxResultsCount = 10
-        };
-        PlayFabClientAPI.GetLeaderboard(request, OnLeaderBoardGet, OnError);
-    }
-
-    void OnLeaderBoardGet(GetLeaderboardResult result)
-    {
-        foreach (var item in result.Leaderboard)
-        {
-            Debug.Log(item.Position + " " + item.PlayFabId + " " + item.StatValue);
-        }
-    }
-
-}
-*/

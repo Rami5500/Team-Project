@@ -40,30 +40,30 @@ public class victoryMenu : NetworkBehaviour
     //[ClientRpc]
     void changeVictory()
     {
-        PlayerLobby[] players = GameObject.FindObjectsOfType<PlayerLobby>();
-        //PlayFabClient[] playersfabs;// = GameObject.FindObjectsOfType<PlayFabClient>();
-        
-        foreach (PlayerLobby player in players)
+        PlayerLobby[] players = GameObject.FindObjectsOfType<PlayerLobby>(); //Finds all the scripts called PlayerLOBBY
+                                                                             //PlayFabClient[] playersfabs;// = GameObject.FindObjectsOfType<PlayFabClient>();
+
+        foreach (PlayerLobby player in players)  //Loops through them
+        {
+
+                 if (player.hasAuthority)  //if you have authority i.e you own it
             {
 
-                 if (player.hasAuthority) 
-                  {
+                      if (player.score >= 3) //checks to see your score - 3 being if you won
+                {
 
-                      if (player.score >= 3)
-                      {
-
-                        if (hasUpdatedScore == false)
+                        if (hasUpdatedScore == false) //checks if it has already updated your score
+                    {
+                            if (myPlayFabManger.isLoggedIn()) //only add to the leader if you are logged in
                         {
-                            if (myPlayFabManger.isLoggedIn())
-                            {
-                                myPlayFabManger.SendLeaderBoard(100);
-                                hasUpdatedScore = true;
+                                myPlayFabManger.SendLeaderBoard(100); //adds 100 to player score
+                            hasUpdatedScore = true;
                             }
                         }
                     // win.SetActive(true);
                     // lose.SetActive(false);
-                          text.text = "You won";
-                          return;
+                          text.text = "You won"; //change text to say you win
+                    return;
                       }
                       else
                       {
@@ -72,7 +72,7 @@ public class victoryMenu : NetworkBehaviour
                         
                          if (myPlayFabManger.isLoggedIn())
                         {
-                            myPlayFabManger.SendLeaderBoard(-50);
+                            myPlayFabManger.SendLeaderBoard(-50); //if the player loses lose 50 points a risk to playing
                             hasUpdatedScore = true;
                         }
                     }
@@ -89,10 +89,10 @@ public class victoryMenu : NetworkBehaviour
     }
 
 
-    public void goToMainMenu()
+    public void goToMainMenu() //go back to mainmenu
     {
         // SceneManager.LoadScene("Scene_MainMenu");
-        NetworkManager.singleton.StopHost();
+        NetworkManager.singleton.StopHost();  //leave the server
         NetworkManager.singleton.StopClient();
     }
 

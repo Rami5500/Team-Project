@@ -117,46 +117,28 @@ public class Player : NetworkBehaviour
         }
 
 
-        //GameObject go = Instantiate(TankPrefab);
-
-        // NetworkServer.Spawn(go, connectionToClient);
-        //NetworkServer.Spawn(go);
-
-        //myTank = Instantiate(TankPrefab);
-
-        //NetworkManager.GetStartPosition();
-        GameObject GM;
+    
+        GameObject spawnLocation;
         //new WaitForSeconds(4f);
         //SpawnLoc(NetworkManager.singleton.GetStartPosition());
         if (playerNum == 2)
         {
-             GM = GameObject.Find("Spawn1");
+            spawnLocation = GameObject.Find("Spawn1");
         }
         else
         {
-            GM = GameObject.Find("Spawn2");
+            spawnLocation = GameObject.Find("Spawn2");
         }
         SpawnMyTank();
-        //myTank = Instantiate(currentTank, SpawnLocation.transform.position, Quaternion.Euler(0, 0, 0));
-        //myTank = Instantiate(currentTank, NetworkManager.singleton.GetStartPosition().transform.position, Quaternion.Euler(0, 0, 0));
-        myTank = Instantiate(currentTank, GM.transform.position, Quaternion.Euler(0, 0, 0));
+
+        myTank = Instantiate(currentTank, spawnLocation.transform.position, Quaternion.Euler(0, 0, 0));
 
 
-        //myTank = Instantiate(currentTank);
-        // myTank.GetComponent<Tank>().ChangePosition(new Vector3(-8, -3, 0));
+
 
         NetworkServer.Spawn(myTank, connectionToClient);
         
-       /* if (isServer)
-        {
-            myTank.GetComponent<Tank>().ChangePosition(new Vector3(-16, 11, 0));
-        }
-        else
-        {
-            myTank.GetComponent<Tank>().ChangePosition(new Vector3(29, 5, 0));
-      
-        }
-       */
+     
      
     }
 

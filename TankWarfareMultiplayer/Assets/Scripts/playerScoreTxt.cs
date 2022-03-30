@@ -29,6 +29,7 @@ public class playerScoreTxt : MonoBehaviour
         }
 
 
+        //Sets the player score
         Player[] players = gameManager.GetAllPlayer();
         text.text = players[Playernum].score.ToString();
 
