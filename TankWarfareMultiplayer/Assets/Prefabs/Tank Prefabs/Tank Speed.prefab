@@ -17,11 +17,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1404570225874851604, guid: 85908f88948c0174590909a990a61e58, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.3
+      value: 17.2
       objectReference: {fileID: 0}
     - target: {fileID: 1404570225874851604, guid: 85908f88948c0174590909a990a61e58, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.2
+      value: -1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504835841795326325, guid: 85908f88948c0174590909a990a61e58, type: 3}
+      propertyPath: Speed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504835841795326325, guid: 85908f88948c0174590909a990a61e58, type: 3}
+      propertyPath: MaxPower
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504835841795326325, guid: 85908f88948c0174590909a990a61e58, type: 3}
+      propertyPath: tankTurn
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1815667712671446215, guid: 85908f88948c0174590909a990a61e58, type: 3}
       propertyPath: m_RootOrder

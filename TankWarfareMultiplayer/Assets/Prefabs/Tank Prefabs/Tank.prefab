@@ -63,5 +63,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9039172485048098053, guid: c3499e12fe783ba49af1b0bf86aae96d, type: 3}
+      propertyPath: turretBody
+      value: 
+      objectReference: {fileID: 1613395158961489041}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3499e12fe783ba49af1b0bf86aae96d, type: 3}
+--- !u!212 &1613395158961489041 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6363805506234164004, guid: c3499e12fe783ba49af1b0bf86aae96d, type: 3}
+  m_PrefabInstance: {fileID: 5634892902065711029}
+  m_PrefabAsset: {fileID: 0}

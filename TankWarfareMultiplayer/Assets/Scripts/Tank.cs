@@ -16,9 +16,9 @@ public class Tank : NetworkBehaviour
 
     float MovemenetPerTurn = 5;
     float MovementLeft;
-    private bool facingRight;
+    private bool facingRight = false;
 
-    public float Speed = 5;
+    public float Speed = 10;
     float TurretSpeed = 180;
     float TurretPowerSpeed = 10;
 
@@ -28,9 +28,18 @@ public class Tank : NetworkBehaviour
     public Transform TurretPivot;
     public Transform BulletSpawnPoint;
     public GameObject aimArrow;
+    public AudioSource tankMovementSound;
 
 
     public GameObject activeArrow;
+
+    public GameObject myArrow;
+    public GameObject enemyArrow;
+
+    public SpriteRenderer turretBody;
+    public SpriteRenderer tankBody;
+
+
 
 
 
@@ -76,30 +85,40 @@ public class Tank : NetworkBehaviour
         {
 
         }
+        if (hasAuthority)
+        {
+          
+        }
 
-        if( hasAuthority && tankTurn == true)
+        if ( hasAuthority && tankTurn == true)
         {
             
             LocalTank = this;
-
+          
             AuthorityUpdate();
             
         }
         if(tankTurn == true)
         {
+
+       
             CmdActiveArrow(true);
         }
         if(tankTurn == false)
         {
             CmdActiveArrow(false);
         }
-
+        if (hasAuthority == false)
+        {
+            CmdEnemyArrow(true);
+        }
 
         if ( hasAuthority == false || tankTurn == false)
         {
+           // CmdEnemyeArrow(true)
            // RpcFixPosition(transform.position);
            // transform.position = Vector3.SmoothDamp(transform.position, serverPosition,ref serverPositionSmoothVelocity , 0.25f);
-            if(!hasAuthority)
+            if (!hasAuthority)
             {
                // RpcFixPosition(Vector3.SmoothDamp(transform.position, serverPosition, ref serverPositionSmoothVelocity, 0.25f));
             }
@@ -109,6 +128,7 @@ public class Tank : NetworkBehaviour
             //ChangePosition(transform.position);
 
             aimArrow.SetActive(false);
+           // turretAngle = Mathf.Clamp(180, 0, 180);
             CmdUpdatePosition(Vector3.SmoothDamp(transform.position, serverPosition, ref serverPositionSmoothVelocity, 0.25f));
             CmdUpdateRotation(serverRotation);
             //RpcFixPosition(Vector3.SmoothDamp(transform.position, serverPosition, ref serverPositionSmoothVelocity, 0.25f));
@@ -151,13 +171,14 @@ public class Tank : NetworkBehaviour
 
 
         float movement = Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
-        float jumpVelocity = 1.2f;
-        
+        float jumpVelocity = 1f;
+
         //float Jump = Input.GetAxis("Horizontal") * jumpVelocity * Time.deltaTime;
 
-
+        tankMovementSound.Play(4);
         if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
         {
+            
             movement *= 0.1f;
         }
         float jump = Input.GetAxis("Vertical") * Speed * Time.deltaTime; ;
@@ -172,6 +193,14 @@ public class Tank : NetworkBehaviour
 
         transform.Translate(movement, jump, 0);
         //Flip(movement);
+        if (Input.GetAxis("Horizontal") < 0 && !facingRight)
+        {
+            Flip(movement);
+        }
+        if (Input.GetAxis("Horizontal") > 0 && facingRight)
+        {
+            Flip(movement);
+        }
         CmdUpdatePosition(transform.position);
 
 
@@ -186,7 +215,7 @@ public class Tank : NetworkBehaviour
 
     void AuthorityUpdateShooting()
     {
-        aimArrow.SetActive(true);
+        //aimArrow.SetActive(true);
 
         if (TankIsLockedIn == true || gameManager.TankCanShoot(this) == false)
         {
@@ -211,7 +240,7 @@ public class Tank : NetworkBehaviour
         turretPower = Mathf.Clamp(turretPower + powerChange, 0, MaxPower);
         CmdSetTurretPower(turretPower);
 
-        UpdateAimArrow();
+       // UpdateAimArrow();
 
         if (Input.GetKeyUp(KeyCode.Space))
         {
@@ -240,28 +269,59 @@ public class Tank : NetworkBehaviour
 
     private void Flip(float horizontal)
     {
-        if(horizontal > 0 && !facingRight || horizontal < 0 && facingRight)
-        {
-            
-            Quaternion theScale = transform.localRotation;
-            if (facingRight)
-            {
-                theScale.y = 1;
-            }
-            if (facingRight == false)
-            {
-                theScale.y = 180;
-            }
-            facingRight = !facingRight;
-            transform.localRotation = theScale;
-            float turretMovement = Input.GetAxis("TurretHorizontal") * TurretSpeed * Time.deltaTime;
-            turretAngle = Mathf.Clamp(turretAngle + turretMovement, 0, 180);
+        /* if(horizontal > 0 && !facingRight || horizontal < 0 && facingRight)
+         {
+
+             /*Quaternion theScale = transform.localRotation;
+             if (facingRight)
+             {
+                 //theScale.y = 1;
+             }
+             if (facingRight == false)
+             {
+                 theScale.y = 180;
+             }
+             facingRight = !facingRight;
+             transform.localRotation = theScale;
+             float turretMovement = Input.GetAxis("TurretHorizontal") * TurretSpeed * Time.deltaTime;
+             turretAngle = Mathf.Clamp(turretAngle + turretMovement, 0, 180);
+             CmdChangeTurretAngle(turretAngle);
+
+             transform.Rotate(new Vector3(0, 180, 0));
+             ChangeRotation(theScale);
+              CmdUpdatePosition(transform.Rotate(new Vector3(0, 180, 0)));
+
+         }
+        */
+        //Vector3 horizontalScale = transform.localScale;
+        if(Input.GetAxis("Horizontal") < 0)
+          {
+            // transform.rotation = Quaternion.Euler(0, 180f, 0);
+             tankBody.flipX = facingRight;
+            CmdFlipTank(facingRight);
+            RPCFlipTank(facingRight);
+            turretAngle = Mathf.Clamp(180, 0, 180);
             CmdChangeTurretAngle(turretAngle);
-
-            ChangeRotation(theScale);
-           // CmdUpdatePosition(transform.position);
-
+            // turretBody.flipX = true;
         }
+          if (Input.GetAxis("Horizontal") > 0)
+          {
+            //tankBody.flipX = true;
+            turretAngle = Mathf.Clamp(0, 0, 180);
+            tankBody.flipX = facingRight;
+            CmdFlipTank(facingRight);
+            RPCFlipTank(facingRight);
+            CmdChangeTurretAngle(turretAngle);
+            //turretBody.flipX = false;
+            // transform.rotation = Quaternion.Euler(0, 0, 0);
+        }
+
+        //horizontalScale.x *= -1;
+        
+        //transform.localScale = horizontalScale;
+        facingRight = !facingRight;
+
+
     }
 
 
@@ -302,6 +362,17 @@ public class Tank : NetworkBehaviour
         aimArrow.transform.localScale = new Vector2(turretPower / 12, turretPower / 12);
     }
 
+    [Command(requiresAuthority = false)]
+    void CmdFlipTank(bool flipDirection)
+    {
+        tankBody.flipX = flipDirection;
+    }
+
+    [ClientRpc]
+    void RPCFlipTank(bool flipDirection)
+    {
+        tankBody.flipX = flipDirection;
+    }
 
 
 
@@ -316,6 +387,11 @@ public class Tank : NetworkBehaviour
     void CmdActiveArrow(bool activeState)
     {
         activeArrow.SetActive(activeState);
+    }
+
+    void CmdEnemyArrow(bool activeState)
+    {
+        enemyArrow.SetActive(activeState);
     }
 
 

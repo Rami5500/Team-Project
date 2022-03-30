@@ -83,13 +83,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1875435565931094793, guid: 1d1990c5af02ee24ab807464d74e70cf, type: 3}
+      propertyPath: Speed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875435565931094793, guid: 1d1990c5af02ee24ab807464d74e70cf, type: 3}
+      propertyPath: MaxPower
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875435565931094793, guid: 1d1990c5af02ee24ab807464d74e70cf, type: 3}
+      propertyPath: tankBody
+      value: 
+      objectReference: {fileID: 3215988671643418715}
     - target: {fileID: 2133206085489931624, guid: 1d1990c5af02ee24ab807464d74e70cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20.46
+      value: 21.8
       objectReference: {fileID: 0}
     - target: {fileID: 2133206085489931624, guid: 1d1990c5af02ee24ab807464d74e70cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.31
+      value: -1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2291708072877201225, guid: 1d1990c5af02ee24ab807464d74e70cf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2776429934872033943, guid: 1d1990c5af02ee24ab807464d74e70cf, type: 3}
       propertyPath: m_LocalScale.x
@@ -164,6 +180,10 @@ PrefabInstance:
       value: Tank Heavy
       objectReference: {fileID: 0}
     - target: {fileID: 5464565533134208599, guid: 1d1990c5af02ee24ab807464d74e70cf, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5464565533134208599, guid: 1d1990c5af02ee24ab807464d74e70cf, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 3901e33ea7f583c44ad7c16ff175f24e, type: 3}
@@ -219,9 +239,26 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.09
       objectReference: {fileID: 0}
+    - target: {fileID: 8634401023517318860, guid: 1d1990c5af02ee24ab807464d74e70cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634401023517318860, guid: 1d1990c5af02ee24ab807464d74e70cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634401023517318860, guid: 1d1990c5af02ee24ab807464d74e70cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8877646029751762507, guid: 1d1990c5af02ee24ab807464d74e70cf, type: 3}
       propertyPath: m_AssetId
       value: c3499e12fe783ba49af1b0bf86aae96d
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d1990c5af02ee24ab807464d74e70cf, type: 3}
+--- !u!212 &3215988671643418715 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5464565533134208599, guid: 1d1990c5af02ee24ab807464d74e70cf, type: 3}
+  m_PrefabInstance: {fileID: 7455557236710063628}
+  m_PrefabAsset: {fileID: 0}

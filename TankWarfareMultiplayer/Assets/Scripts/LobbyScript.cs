@@ -22,6 +22,23 @@ public class LobbyScript : NetworkBehaviour
     public GameObject myTank;
     public GameObject myPlayer;
 
+
+    public GameObject ButtonTank1;
+    public GameObject ButtonTank2;
+    public GameObject ButtonTank3;
+
+    GameObject selectedTank;
+
+    GameObject selectedMap;
+
+
+    public GameObject ButtonMap1;
+    public GameObject ButtonMap2;
+    public GameObject ButtonMap3;
+
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +49,40 @@ public class LobbyScript : NetworkBehaviour
         //    NetworkServer.Spawn(myPlayer, connectionToClient);
        // }
     }
+
+    void SetCurrentTank(GameObject currentTank)
+    {
+        selectedTank = currentTank;
+    }
+
+    void SetCurrentMap(GameObject currentMap)
+    {
+        selectedMap = currentMap;
+    }
+
+    void HighlightSelectedTank(GameObject currentTank)
+    {
+        if (selectedTank != null)
+        {
+            selectedTank.GetComponent<Button>().GetComponent<Image>().color = Color.white;
+        }
+        SetCurrentTank(currentTank);
+
+        selectedTank.GetComponent<Button>().GetComponent<Image>().color = Color.green;
+    }
+
+    void HighlightSelectedMap(GameObject currentMap)
+    {
+        if (selectedMap != null)
+        {
+
+            selectedMap.GetComponent<Button>().GetComponent<Image>().color = Color.white;
+        }
+        SetCurrentMap(currentMap);
+        selectedMap.GetComponent<Button>().GetComponent<Image>().color = Color.green;
+    }
+
+
 
     // Update is called once per frame
     void Update()
@@ -47,31 +98,37 @@ public class LobbyScript : NetworkBehaviour
 
     public void ChangeBalanceTank()
     {
+        HighlightSelectedTank(ButtonTank2);
         changeTank(1);
     }
 
     public void ChangeSpeedTank()
     {
+        HighlightSelectedTank(ButtonTank1);
         changeTank(2);
     }
 
     public void ChangeHeavyTank()
     {
+        HighlightSelectedTank(ButtonTank3);
         changeTank(3);
     }
 
     public void ChangeFloatMap()
     {
+        HighlightSelectedMap(ButtonMap2);
         changeMap(1);
     }
 
     public void ChangeDesertMap()
     {
+        HighlightSelectedMap(ButtonMap1);
         changeMap(2);
     }
 
     public void ChangeIceMap()
     {
+        HighlightSelectedMap(ButtonMap3);
         changeMap(3);
     }
 

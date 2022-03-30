@@ -204,7 +204,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1386664897
 GameObject:
@@ -7715,6 +7715,14 @@ PrefabInstance:
     - target: {fileID: 3883254038535263718, guid: 6922c55c01227b74c8d58a5371a3e4f8, type: 3}
       propertyPath: m_Name
       value: Tank (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5942465573178812402, guid: 6922c55c01227b74c8d58a5371a3e4f8, type: 3}
+      propertyPath: sceneId
+      value: 1911175605
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749360614867156532, guid: 6922c55c01227b74c8d58a5371a3e4f8, type: 3}
+      propertyPath: sceneId
+      value: 3645609552
       objectReference: {fileID: 0}
     - target: {fileID: 7639874513802175670, guid: 6922c55c01227b74c8d58a5371a3e4f8, type: 3}
       propertyPath: m_RootOrder
