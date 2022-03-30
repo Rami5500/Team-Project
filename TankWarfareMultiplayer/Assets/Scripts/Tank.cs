@@ -29,9 +29,13 @@ public class Tank : NetworkBehaviour
     public Transform BulletSpawnPoint;
     public GameObject aimArrow;
 
+    public GameObject smallBullet;
+    public GameObject mediumBullet;
+    public GameObject heavyBullet;
 
     public GameObject activeArrow;
 
+    //public event KeyPressEventHandler KeyPress;
 
 
     static public Tank LocalTank{ get; protected set; }
@@ -192,6 +196,12 @@ public class Tank : NetworkBehaviour
         {
             return;
         }
+
+        //KeyEventArgs e;
+        //if (Input.GetKey(e.KeyCode.NumPad1))
+        //{
+        //    CurrentBulletPrefab = smallBullet;
+        //}
 
         float turretMovement = Input.GetAxis("TurretHorizontal") * TurretSpeed * Time.deltaTime;
         if(Input.GetKey(KeyCode.LeftShift)|| Input.GetKey(KeyCode.RightShift))

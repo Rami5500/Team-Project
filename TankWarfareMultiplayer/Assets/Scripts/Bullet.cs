@@ -62,7 +62,8 @@ public class Bullet : NetworkBehaviour
     void RpcDoExplosion(Vector2 position)
     {
        GameObject go = Instantiate(ExplosionPrefab, position, Quaternion.identity);
-        // go.GetComponent<BulletExplosion>().Radius = Radius;
+        
+        go.GetComponent<BulletExplosion>().Radius = Radius;
         NetworkServer.Spawn(go);
 
     }

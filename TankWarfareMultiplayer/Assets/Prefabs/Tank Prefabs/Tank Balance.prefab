@@ -291,6 +291,22 @@ PrefabInstance:
       propertyPath: activeArrow
       value: 
       objectReference: {fileID: 7697664732178968211}
+    - target: {fileID: 3019008561831474865, guid: 47e65c9ed3145be468dc3c64c5c3fe65, type: 3}
+      propertyPath: heavyBullet
+      value: 
+      objectReference: {fileID: 7891981941052354101, guid: dbee7e5090a363847a9a8bb76e0b11b9, type: 3}
+    - target: {fileID: 3019008561831474865, guid: 47e65c9ed3145be468dc3c64c5c3fe65, type: 3}
+      propertyPath: smallBullet
+      value: 
+      objectReference: {fileID: 1866675174442657097, guid: 7df299231d561c54ab72d92c0ed4f21c, type: 3}
+    - target: {fileID: 3019008561831474865, guid: 47e65c9ed3145be468dc3c64c5c3fe65, type: 3}
+      propertyPath: mediumBullet
+      value: 
+      objectReference: {fileID: 2211126664618848699, guid: ef92f068344e9fa429da7a72f59b8ae1, type: 3}
+    - target: {fileID: 3019008561831474865, guid: 47e65c9ed3145be468dc3c64c5c3fe65, type: 3}
+      propertyPath: CurrentBulletPrefab
+      value: 
+      objectReference: {fileID: 1866675174442657097, guid: 7df299231d561c54ab72d92c0ed4f21c, type: 3}
     - target: {fileID: 3348959992936079568, guid: 47e65c9ed3145be468dc3c64c5c3fe65, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.17

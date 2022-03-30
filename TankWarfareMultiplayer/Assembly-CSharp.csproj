@@ -332,22 +332,22 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
  </Reference>
  <Reference Include="Mono.CecilX.Rocks">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
  </Reference>
  <Reference Include="Mono.CecilX.Pdb">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
  </Reference>
  <Reference Include="NobleConnect">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Assets/Noble Connect/NobleConnect.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Assets/Noble Connect/NobleConnect.dll</HintPath>
  </Reference>
  <Reference Include="Mono.CecilX">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Mono.CecilX.Mdb">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -694,103 +694,104 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Tilemap.Extras">
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.2D.Animation.Editor">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.InternalAPIEngineBridge.001">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.PixelPerfect">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
  </Reference>
  <Reference Include="PsdPlugin">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.IK.Editor">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Psdimporter.Editor">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Path.Editor">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.InternalAPIEditorBridge.001">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Mathematics">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.IK.Runtime">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Animation.Triangle.Runtime">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Animation.Runtime">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.PixelPerfect.Editor">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Mathematics.Editor">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Common.Runtime">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.SpriteShape.Editor">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Common.Editor">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.SpriteShape.Runtime">
- <HintPath>C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+ <HintPath>C:/Users/jeeva/OneDrive/Documents/GitHub/Team-Project/TankWarfareMultiplayer/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
-      <Project>{C64A8BB6-64D1-E3EC-F3A6-16BBE25C461B}</Project>
-      <Name>Unity.2D.Tilemap.Extras</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="PlayFabSDKEditor.csproj">
       <Project>{A0EEC1B8-0958-192A-22B5-126DA20784A1}</Project>
       <Name>PlayFabSDKEditor</Name>
@@ -819,11 +820,6 @@
     <ProjectReference Include="PlayFab.csproj">
       <Project>{1A9FEDAF-5C47-75AF-C349-6E7A9CB408D2}</Project>
       <Name>PlayFab</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
-      <Project>{D52878B0-E16D-756C-EB3E-DE70FC4E9B68}</Project>
-      <Name>Unity.2D.Tilemap.Extras.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Mirror.Editor.csproj">
