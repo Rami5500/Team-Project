@@ -241,7 +241,7 @@ public class PlayfabManager : MonoBehaviour
     //change to register menu
     public void showRegister()
     {
-        userNameText.SetActive(false);
+        userNameText.SetActive(true);
         loginButton.SetActive(false);
         registerButton.SetActive(true);
         resetPasswordButton.SetActive(false);
@@ -253,7 +253,7 @@ public class PlayfabManager : MonoBehaviour
     //change to login menu
     public void showLogin()
     {
-        userNameText.SetActive(true);
+        userNameText.SetActive(false);
         loginButton.SetActive(true);
         registerButton.SetActive(false);
         resetPasswordButton.SetActive(true);
