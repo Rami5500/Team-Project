@@ -83,7 +83,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/Game.unity:
+    Assets/Scenes/Main/Game.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -164,7 +164,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 1839735485
       Script: {instanceID: 0}
-    Assets/Scenes/Leader&Sent.unity:
+    Assets/Scenes/Main/Leader&Sent.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -217,7 +217,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 225
       Script: {instanceID: 0}
-    Assets/Scenes/Scene_Lobby.unity:
+    Assets/Scenes/Main/Scene_Lobby.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -270,58 +270,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Scene_Login_&_Register.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1474}
-    - Class: 114
-      Script: {instanceID: 1476}
-    - Class: 114
-      Script: {instanceID: 1478}
-    - Class: 114
-      Script: {instanceID: 2954}
-    - Class: 114
-      Script: {instanceID: 3530}
-    - Class: 114
-      Script: {instanceID: 3910}
-    - Class: 114
-      Script: {instanceID: 4416}
-    - Class: 114
-      Script: {instanceID: 5348}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    - Class: 225
-      Script: {instanceID: 0}
-    Assets/Scenes/Scene_MainMenu.unity:
+    Assets/Scenes/Main/Scene_MainMenu.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -448,7 +397,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 1839735485
       Script: {instanceID: 0}
-    Assets/Scenes/Scene_Victory.unity:
+    Assets/Scenes/Main/Scene_Victory.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -498,6 +447,57 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Scene_Login_&_Register.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1474}
+    - Class: 114
+      Script: {instanceID: 1476}
+    - Class: 114
+      Script: {instanceID: 1478}
+    - Class: 114
+      Script: {instanceID: 2954}
+    - Class: 114
+      Script: {instanceID: 3530}
+    - Class: 114
+      Script: {instanceID: 3910}
+    - Class: 114
+      Script: {instanceID: 4416}
+    - Class: 114
+      Script: {instanceID: 5348}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -670,7 +670,7 @@ ScriptsOnlyBuild:
     className: PlayerScore
   - hash:
       serializedVersion: 2
-      Hash: 789ddda532f8384b842d50b1b8427aa6
+      Hash: d8b005bd5229e91edc2abf712f8b3347
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LobbyScript
@@ -946,7 +946,7 @@ ScriptsOnlyBuild:
     className: GameManager
   - hash:
       serializedVersion: 2
-      Hash: de7a16787763ee9058c79f095a510852
+      Hash: 715637dd561046482e7212f274e8fcb0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Tank
@@ -1780,10 +1780,10 @@ ScriptsOnlyBuild:
     className: TerrainDestroyer
   platform: 19
   scenePathNames:
-  - Assets/Scenes/Scene_MainMenu.unity
+  - Assets/Scenes/Main/Scene_MainMenu.unity
   - Assets/Scenes/Scene_Login_&_Register.unity
-  - Assets/Scenes/Leader&Sent.unity
-  - Assets/Scenes/Scene_Lobby.unity
-  - Assets/Scenes/Game.unity
-  - Assets/Scenes/Scene_Victory.unity
+  - Assets/Scenes/Main/Leader&Sent.unity
+  - Assets/Scenes/Main/Scene_Lobby.unity
+  - Assets/Scenes/Main/Game.unity
+  - Assets/Scenes/Main/Scene_Victory.unity
   playerPath: C:/Users/ryan/TankWarfareMultiplayer/Builds/TankWarfareMultiplayer.exe

@@ -32,6 +32,12 @@ public class Tank : NetworkBehaviour
     public AudioSource firingSound;
 
 
+
+    public GameObject smallBullet;
+    public GameObject mediumBullet;
+    public GameObject heavyBullet;
+
+
     public GameObject activeArrow;
 
     public GameObject myArrow;

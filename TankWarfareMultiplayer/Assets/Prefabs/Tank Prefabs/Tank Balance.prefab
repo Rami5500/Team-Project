@@ -365,9 +365,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7191396298803844930}
     - target: {fileID: 3019008561831474865, guid: 47e65c9ed3145be468dc3c64c5c3fe65, type: 3}
+      propertyPath: heavyBullet
+      value: 
+      objectReference: {fileID: 6406453817148017516, guid: 40b33274b776a0a4b8910522cd5faed3, type: 3}
+    - target: {fileID: 3019008561831474865, guid: 47e65c9ed3145be468dc3c64c5c3fe65, type: 3}
+      propertyPath: smallBullet
+      value: 
+      objectReference: {fileID: 6428902306196505067, guid: 58420a89c1fd8a44a9db89a7cd1331fa, type: 3}
+    - target: {fileID: 3019008561831474865, guid: 47e65c9ed3145be468dc3c64c5c3fe65, type: 3}
+      propertyPath: mediumBullet
+      value: 
+      objectReference: {fileID: 7588442613815963038, guid: 44482f9e13398bb49ad3b5e1d3885b3e, type: 3}
+    - target: {fileID: 3019008561831474865, guid: 47e65c9ed3145be468dc3c64c5c3fe65, type: 3}
       propertyPath: tankMovementSound
       value: 
       objectReference: {fileID: 649406801845283185}
+    - target: {fileID: 3019008561831474865, guid: 47e65c9ed3145be468dc3c64c5c3fe65, type: 3}
+      propertyPath: CurrentBulletPrefab
+      value: 
+      objectReference: {fileID: 6428902306196505067, guid: 58420a89c1fd8a44a9db89a7cd1331fa, type: 3}
     - target: {fileID: 3348959992936079568, guid: 47e65c9ed3145be468dc3c64c5c3fe65, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12

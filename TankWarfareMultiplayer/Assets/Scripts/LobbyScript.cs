@@ -19,6 +19,10 @@ public class LobbyScript : NetworkBehaviour
     public GameObject Map2;
     public GameObject Map3;
 
+    public GameObject Map1Image;
+    public GameObject Map2Image;
+    public GameObject Map3Image;
+
     public GameObject myTank;
     public GameObject myPlayer;
 
@@ -92,6 +96,9 @@ public class LobbyScript : NetworkBehaviour
             Map1.SetActive(true);
             Map2.SetActive(true);
             Map3.SetActive(true);
+            Map1Image.SetActive(true);
+            Map2Image.SetActive(true);
+            Map3Image.SetActive(true);
         }
     }
 
