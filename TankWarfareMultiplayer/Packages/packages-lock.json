@@ -73,7 +73,7 @@
       "dependencies": {}
     },
     "com.unity.2d.tilemap.extras": {
-      "version": "file:C:/Users/ryan/Documents/UNI Homework/2d-extras-2020.3",
+      "version": "file:../Custom Packages/2d-extras-2020.3",
       "depth": 0,
       "source": "local",
       "dependencies": {

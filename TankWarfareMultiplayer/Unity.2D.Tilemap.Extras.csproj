@@ -47,20 +47,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="C:\Users\ryan\Documents\UNI Homework\2d-extras-2020.3\Runtime\Tiles\RandomTile\RandomTile.cs" />
-     <Compile Include="C:\Users\ryan\Documents\UNI Homework\2d-extras-2020.3\Runtime\GridInformation\GridInformation.cs" />
-     <Compile Include="C:\Users\ryan\Documents\UNI Homework\2d-extras-2020.3\Runtime\Tiles\TerrainTile\TerrainTile.cs" />
-     <Compile Include="C:\Users\ryan\Documents\UNI Homework\2d-extras-2020.3\Runtime\Tiles\PipelineTile\PipelineTile.cs" />
-     <Compile Include="C:\Users\ryan\Documents\UNI Homework\2d-extras-2020.3\Runtime\Brushes\TintTextureGenerator.cs" />
-     <Compile Include="C:\Users\ryan\Documents\UNI Homework\2d-extras-2020.3\Runtime\Tiles\RuleOverrideTile\RuleOverrideTile.cs" />
-     <Compile Include="C:\Users\ryan\Documents\UNI Homework\2d-extras-2020.3\Runtime\Tiles\IsometricRuleTile\IsometricRuleTile.cs" />
-     <Compile Include="C:\Users\ryan\Documents\UNI Homework\2d-extras-2020.3\Runtime\Tiles\HexagonalRuleTile\HexagonalRuleTile.cs" />
-     <Compile Include="C:\Users\ryan\Documents\UNI Homework\2d-extras-2020.3\Runtime\Tiles\RuleTile\RuleTile.cs" />
-     <Compile Include="C:\Users\ryan\Documents\UNI Homework\2d-extras-2020.3\Runtime\Tiles\RuleOverrideTile\AdvancedRuleOverrideTile.cs" />
-     <Compile Include="C:\Users\ryan\Documents\UNI Homework\2d-extras-2020.3\Runtime\Tiles\AnimatedTile\AnimatedTile.cs" />
-     <Compile Include="C:\Users\ryan\Documents\UNI Homework\2d-extras-2020.3\Runtime\Tiles\WeightedRandomTile\WeightedRandomTile.cs" />
-     <None Include="C:\Users\ryan\Documents\UNI Homework\2d-extras-2020.3\Runtime\Unity.2D.Tilemap.Extras.asmdef" />
-     <None Include="C:\Users\ryan\Documents\UNI Homework\2d-extras-2020.3\Runtime\Brushes\TintedTilemap.shader" />
+     <Compile Include="Custom Packages\2d-extras-2020.3\Runtime\Tiles\RandomTile\RandomTile.cs" />
+     <Compile Include="Custom Packages\2d-extras-2020.3\Runtime\GridInformation\GridInformation.cs" />
+     <Compile Include="Custom Packages\2d-extras-2020.3\Runtime\Tiles\TerrainTile\TerrainTile.cs" />
+     <Compile Include="Custom Packages\2d-extras-2020.3\Runtime\Tiles\PipelineTile\PipelineTile.cs" />
+     <Compile Include="Custom Packages\2d-extras-2020.3\Runtime\Brushes\TintTextureGenerator.cs" />
+     <Compile Include="Custom Packages\2d-extras-2020.3\Runtime\Tiles\RuleOverrideTile\RuleOverrideTile.cs" />
+     <Compile Include="Custom Packages\2d-extras-2020.3\Runtime\Tiles\IsometricRuleTile\IsometricRuleTile.cs" />
+     <Compile Include="Custom Packages\2d-extras-2020.3\Runtime\Tiles\HexagonalRuleTile\HexagonalRuleTile.cs" />
+     <Compile Include="Custom Packages\2d-extras-2020.3\Runtime\Tiles\RuleTile\RuleTile.cs" />
+     <Compile Include="Custom Packages\2d-extras-2020.3\Runtime\Tiles\RuleOverrideTile\AdvancedRuleOverrideTile.cs" />
+     <Compile Include="Custom Packages\2d-extras-2020.3\Runtime\Tiles\AnimatedTile\AnimatedTile.cs" />
+     <Compile Include="Custom Packages\2d-extras-2020.3\Runtime\Tiles\WeightedRandomTile\WeightedRandomTile.cs" />
+     <None Include="Custom Packages\2d-extras-2020.3\Runtime\Unity.2D.Tilemap.Extras.asmdef" />
+     <None Include="Custom Packages\2d-extras-2020.3\Runtime\Brushes\TintedTilemap.shader" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

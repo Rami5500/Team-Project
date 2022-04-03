@@ -15,11 +15,11 @@ C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63120
+61188
 Successfully changed project path to: C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer
 C:/Users/ryan/Documents/Share TankWarfare/TankWarfareMultiplayer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 57.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.21f1 (a38c86f6690f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -37,73 +37,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001076 seconds.
+Registered in 0.001058 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.026 seconds
+- Completed reload, in  1.578 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1026ms)
-		BeginReloadAssembly (47ms)
+	ReloadAssembly (1578ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (478ms)
-			LoadAssemblies (46ms)
+		EndReloadAssembly (624ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (157ms)
+			SetupTypeCache (209ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (195ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (249ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (59ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005261 seconds.
+Registered in 0.007053 seconds.
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 70.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
 Mono: successfully reloaded assembly
-- Completed reload, in  1.395 seconds
+- Completed reload, in  2.033 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1395ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (2034ms)
+		BeginReloadAssembly (202ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1198ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1721ms)
+			LoadAssemblies (159ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (346ms)
+			SetupTypeCache (480ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (563ms)
+			RebuildScriptCaches (150ms)
+			SetupLoadedEditorAssemblies (765ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (57ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (397ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (525ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -112,14 +130,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2674 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.1 MB.
-System memory in use after: 114.3 MB.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.7 MB.
+System memory in use after: 115.8 MB.
 
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3107.
-Total: 3.972574 ms (FindLiveObjects: 0.390013 ms CreateObjectMapping: 0.156367 ms MarkObjects: 3.340765 ms  DeleteObjects: 0.084523 ms)
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3138.
+Total: 6.508219 ms (FindLiveObjects: 0.417782 ms CreateObjectMapping: 0.346542 ms MarkObjects: 5.620735 ms  DeleteObjects: 0.121652 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,85 +151,116 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Main/Scene_Lobby.unity
-  artifactKey: Guid(d72d0bb5c4f465549ac09c7842366dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main/Scene_Lobby.unity using Guid(d72d0bb5c4f465549ac09c7842366dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11450795b42a6fb4f7b61cf58fdcf2ff') in 0.016359 seconds 
-  Import took 0.021624 seconds .
+  path: Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef
+  artifactKey: Guid(613783dc1674e844b87788ea74ede0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef using Guid(613783dc1674e844b87788ea74ede0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95e2ed6d45728b1120a0a97cf336db1') in 0.792596 seconds 
+  Import took 0.798887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef
+  artifactKey: Guid(0b7cc22ca45653d4b94dcade553e0eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef using Guid(0b7cc22ca45653d4b94dcade553e0eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4147b203abf3b30a2622d11bbc20eede') in 0.002614 seconds 
+  Import took 0.007515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef
+  artifactKey: Guid(43e6d3911df5132468d0a3a902d59a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef using Guid(43e6d3911df5132468d0a3a902d59a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0d1aa1567755d3d6ecfcc830cb0932') in 0.010311 seconds 
+  Import took 0.015051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 436.153540 seconds.
+  path: Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef
+  artifactKey: Guid(edf615535a9bbf544af8caf9f7560151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef using Guid(edf615535a9bbf544af8caf9f7560151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000438 seconds  code(4) message(Build asset version error: packages/com.unity.2d.tilemap.extras/runtime/unity.2d.tilemap.extras.asmdef.meta in SourceAssetDB has modification time of '2022-04-03T22:04:25.9671823Z' while content on disk has modification time of '2021-09-30T06:01:18Z')
+  ERROR: Build asset version error: packages/com.unity.2d.tilemap.extras/runtime/unity.2d.tilemap.extras.asmdef.meta in SourceAssetDB has modification time of '2022-04-03T22:04:25.9671823Z' while content on disk has modification time of '2021-09-30T06:01:18Z'
+  Import took 0.005841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.236307 seconds.
+  path: Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef
+  artifactKey: Guid(bbe3c59e3e6e98a43bbb72b5c22b0118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef using Guid(bbe3c59e3e6e98a43bbb72b5c22b0118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000376 seconds  code(4) message(Build asset version error: packages/com.unity.2d.tilemap.extras/tests/editor/unity.2d.tilemap.extras.editortests.asmdef.meta in SourceAssetDB has modification time of '2022-04-03T22:04:25.9701825Z' while content on disk has modification time of '2021-09-30T06:01:18Z')
+  ERROR: Build asset version error: packages/com.unity.2d.tilemap.extras/tests/editor/unity.2d.tilemap.extras.editortests.asmdef.meta in SourceAssetDB has modification time of '2022-04-03T22:04:25.9701825Z' while content on disk has modification time of '2021-09-30T06:01:18Z'
+  Import took 0.004629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.465360 seconds.
+  path: Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef
+  artifactKey: Guid(a12b493bbd006f5458064ffd28010ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef using Guid(a12b493bbd006f5458064ffd28010ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77be8407f74696c53fd6ff5affcdaefb') in 0.008039 seconds 
+  Import took 0.014368 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004779 seconds.
+Registered in 0.005679 seconds.
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
 Mono: successfully reloaded assembly
-- Completed reload, in  1.280 seconds
+- Completed reload, in  1.470 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1280ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (1470ms)
+		BeginReloadAssembly (127ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1103ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1264ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (375ms)
+			SetupTypeCache (382ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (450ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (600ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (334ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (434ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2624 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 113.5 MB.
 System memory in use after: 113.7 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3110.
-Total: 3.870542 ms (FindLiveObjects: 0.277416 ms CreateObjectMapping: 0.121954 ms MarkObjects: 3.408987 ms  DeleteObjects: 0.060977 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 38.382392 seconds.
-  path: Assets/Scenes/Main/Scene_MainMenu.unity
-  artifactKey: Guid(a2c22b82135e06c428f760aff9560784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main/Scene_MainMenu.unity using Guid(a2c22b82135e06c428f760aff9560784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4328fd6eab75953e7715ea16df7217fb') in 0.019512 seconds 
-  Import took 0.024528 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.1 MB.
-System memory in use after: 61.3 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3110.
-Total: 4.879685 ms (FindLiveObjects: 0.353185 ms CreateObjectMapping: 0.107163 ms MarkObjects: 4.358662 ms  DeleteObjects: 0.059770 ms)
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 3117.
+Total: 4.596807 ms (FindLiveObjects: 0.274999 ms CreateObjectMapping: 0.122557 ms MarkObjects: 4.047110 ms  DeleteObjects: 0.150329 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -226,386 +275,330 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006284 seconds.
+Registered in 0.007561 seconds.
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
 Mono: successfully reloaded assembly
-- Completed reload, in  2.079 seconds
+- Completed reload, in  4.398 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2080ms)
-		BeginReloadAssembly (168ms)
+	ReloadAssembly (4398ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (69ms)
-		EndReloadAssembly (1822ms)
-			LoadAssemblies (143ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (4197ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (576ms)
+			SetupTypeCache (596ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (857ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (3126ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (136ms)
-				ProcessInitializeOnLoadAttributes (679ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				BeforeProcessingInitializeOnLoad (301ms)
+				ProcessInitializeOnLoadAttributes (2766ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2624 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.3 MB.
+System memory in use after: 113.5 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3120.
+Total: 5.389204 ms (FindLiveObjects: 0.271377 ms CreateObjectMapping: 0.111086 ms MarkObjects: 4.893843 ms  DeleteObjects: 0.111690 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.5 MB.
+System memory in use after: 61.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3120.
+Total: 7.100178 ms (FindLiveObjects: 0.332354 ms CreateObjectMapping: 0.114407 ms MarkObjects: 6.552594 ms  DeleteObjects: 0.083617 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006292 seconds.
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  2.212 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2212ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1911ms)
+			LoadAssemblies (167ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (653ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (809ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (185ms)
+				ProcessInitializeOnLoadAttributes (585ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2624 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.3 MB.
+System memory in use after: 113.5 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3123.
+Total: 11.594954 ms (FindLiveObjects: 1.615282 ms CreateObjectMapping: 0.399972 ms MarkObjects: 9.438126 ms  DeleteObjects: 0.138254 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005428 seconds.
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  1.394 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1395ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1205ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.2 MB.
+System memory in use after: 114.4 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3138.
+Total: 4.371616 ms (FindLiveObjects: 0.361031 ms CreateObjectMapping: 0.113200 ms MarkObjects: 3.812561 ms  DeleteObjects: 0.083617 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.9 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3138.
+Total: 4.647521 ms (FindLiveObjects: 0.390010 ms CreateObjectMapping: 0.285263 ms MarkObjects: 3.904630 ms  DeleteObjects: 0.067316 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006654 seconds.
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2d-extras-2020.3/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2d-extras-2020.3/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2d-extras-2020.3/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  1.991 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1992ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1731ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (575ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (748ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (526ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.6 MB.
-System memory in use after: 113.8 MB.
+System memory in use before: 114.2 MB.
+System memory in use after: 114.4 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3113.
-Total: 5.927164 ms (FindLiveObjects: 0.748631 ms CreateObjectMapping: 0.321489 ms MarkObjects: 4.734487 ms  DeleteObjects: 0.120143 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 218.450474 seconds.
-  path: Assets/Scripts/LeaderBoard Related Things/PlayfabManager.cs
-  artifactKey: Guid(87f21fef6616e604091f9eee2047f391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LeaderBoard Related Things/PlayfabManager.cs using Guid(87f21fef6616e604091f9eee2047f391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193af91f218d3aeaf254de3e3c73ab28') in 0.744870 seconds 
-  Import took 0.751476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.381256 seconds.
-  path: Assets/Scenes/Main/Scene_Victory.unity
-  artifactKey: Guid(1e2fadd839f1de248997634fc75b2dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main/Scene_Victory.unity using Guid(1e2fadd839f1de248997634fc75b2dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390ea176d2882065ea0b7bf87e04ba8b') in 0.026656 seconds 
-  Import took 0.032305 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008074 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.763 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1763ms)
-		BeginReloadAssembly (137ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (1551ms)
-			LoadAssemblies (114ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (558ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (653ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (513ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.6 MB.
-System memory in use after: 113.8 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3116.
-Total: 7.742896 ms (FindLiveObjects: 1.002199 ms CreateObjectMapping: 0.369787 ms MarkObjects: 6.278538 ms  DeleteObjects: 0.088749 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004864 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.262 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1263ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1086ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (357ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (469ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (344ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.7 MB.
-System memory in use after: 113.9 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3119.
-Total: 4.034456 ms (FindLiveObjects: 0.272284 ms CreateObjectMapping: 0.121049 ms MarkObjects: 3.571996 ms  DeleteObjects: 0.068222 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004899 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.549 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1549ms)
-		BeginReloadAssembly (148ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (1331ms)
-			LoadAssemblies (113ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (570ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (473ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (350ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.7 MB.
-System memory in use after: 113.9 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3122.
-Total: 4.691923 ms (FindLiveObjects: 0.574755 ms CreateObjectMapping: 0.212515 ms MarkObjects: 3.824055 ms  DeleteObjects: 0.078787 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.2 MB.
-System memory in use after: 61.4 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3122.
-Total: 3.984950 ms (FindLiveObjects: 0.246927 ms CreateObjectMapping: 0.105654 ms MarkObjects: 3.579240 ms  DeleteObjects: 0.051921 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007223 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.968 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1968ms)
-		BeginReloadAssembly (169ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (1700ms)
-			LoadAssemblies (139ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (561ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (752ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (133ms)
-				ProcessInitializeOnLoadAttributes (511ms)
-				ProcessInitializeOnLoadMethodAttributes (91ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.7 MB.
-System memory in use after: 113.9 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3125.
-Total: 5.364484 ms (FindLiveObjects: 0.360731 ms CreateObjectMapping: 0.136746 ms MarkObjects: 4.771013 ms  DeleteObjects: 0.094484 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.2 MB.
-System memory in use after: 61.4 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3125.
-Total: 4.518048 ms (FindLiveObjects: 0.292811 ms CreateObjectMapping: 0.116219 ms MarkObjects: 3.976498 ms  DeleteObjects: 0.131614 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005448 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.132 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2132ms)
-		BeginReloadAssembly (161ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (65ms)
-		EndReloadAssembly (1881ms)
-			LoadAssemblies (139ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (555ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (894ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (188ms)
-				ProcessInitializeOnLoadAttributes (651ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.7 MB.
-System memory in use after: 113.9 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3128.
-Total: 8.549184 ms (FindLiveObjects: 1.020915 ms CreateObjectMapping: 0.416275 ms MarkObjects: 6.971021 ms  DeleteObjects: 0.138255 ms)
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3141.
+Total: 7.205831 ms (FindLiveObjects: 0.501399 ms CreateObjectMapping: 0.362540 ms MarkObjects: 6.222655 ms  DeleteObjects: 0.117426 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

@@ -79,8 +79,8 @@
      <Compile Include="Assets\PlayFabSDK\Data\PlayFabDataModels.cs" />
      <Compile Include="Assets\PlayFabSDK\Groups\PlayFabGroupsAPI.cs" />
      <Compile Include="Assets\PlayFabSDK\CloudScript\PlayFabCloudScriptAPI.cs" />
-     <Compile Include="Assets\PlayFabSDK\Admin\PlayFabAdminModels.cs" />
      <Compile Include="Assets\PlayFabSDK\Shared\Public\PlayFabSettings.cs" />
+     <Compile Include="Assets\PlayFabSDK\Admin\PlayFabAdminModels.cs" />
      <Compile Include="Assets\PlayFabSDK\Insights\PlayFabEvents.cs" />
      <Compile Include="Assets\PlayFabSDK\Experimentation\PlayFabExperimentationModels.cs" />
      <Compile Include="Assets\PlayFabSDK\Shared\Public\PluginContractKey.cs" />
